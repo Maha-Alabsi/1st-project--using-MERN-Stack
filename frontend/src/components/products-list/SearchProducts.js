@@ -8,6 +8,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './theme';
+
 const SearchProducts = () => {
   const [products, setProducts] = useState([]);
   const [keyword, setKeyword] = useState('');

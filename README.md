@@ -11,3 +11,4 @@ subjects I learned while developing this project
 2. concept of NoSql 
 3. MongoDB & how using it with NodeJS 
 4. How to create a MERN stack app
+5. Material UI
