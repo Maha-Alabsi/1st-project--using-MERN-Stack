@@ -6,7 +6,15 @@ import Product from '../models/productModel.js';
 //Get /api/products
 router.get('/', async (req, res) => {
   try {
-    const products = await Product.find({});
+    const keyword = req.query.keyword
+      ? {
+          name: {
+            $regex: req.query.keyword,
+            $options: 'i',
+          },
+        }
+      : {};
+    const products = await Product.find({ ...keyword });
     res.json(products);
   } catch (error) {
     console.error(`Error: ${error.message}`.red.underline.bold);
@@ -14,20 +22,5 @@ router.get('/', async (req, res) => {
   }
 });
 
-//Fetch single product
-//Get /api/products/:id
-router.get('/:id', async (req, res) => {
-  try {
-    const product = await Product.findById(req.params.id);
-    if (product) {
-      res.json(product);
-    } else {
-      res.status(404).json({ message: 'Product not found' });
-    }
-  } catch (error) {
-    console.error(`Error: ${error.message}`.red.underline.bold);
-    process.exit(1);
-  }
-});
 
 export default router;

@@ -1,14 +1,12 @@
 import React from 'react';
 import Header from './Header';
-import Main from './MainInto';
-import ProMainGrid from './products-list/ProMainGrid';
+import SearchProducts from './products-list/SearchProducts';
 
 const HomeScreen = () => {
   return (
     <div>
       <Header />
-      <Main />
-      <ProMainGrid />
+      <SearchProducts />
     </div>
   );
 };

@@ -12,20 +12,11 @@ import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import ZoomInIcon from '@material-ui/icons/ZoomIn';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import useStyles from './styles';
-import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/core/styles';
+import theme from './theme';
 
 const ProductCard = ({ product }) => {
   const classes = useStyles();
-  const theme = createMuiTheme({
-    palette: {
-      primary: {
-        main: '#c8a165',
-      },
-      secondary: {
-        main: '#c87065',
-      },
-    },
-  });
   const btnColor = product.status === 'New' ? 'primary' : 'secondary';
   return (
     <ThemeProvider theme={theme}>
@@ -63,13 +54,13 @@ const ProductCard = ({ product }) => {
             {product.status}
           </Button>
           <div>
-            <IconButton aria-label='Favorite'>
+            <IconButton label='Favorite'>
               <FavoriteBorderIcon />
             </IconButton>
-            <IconButton aria-label='view item'>
+            <IconButton label='view item'>
               <ZoomInIcon />
             </IconButton>
-            <IconButton aria-label='Add to cart'>
+            <IconButton label='Add to cart'>
               <AddShoppingCartIcon />
             </IconButton>
           </div>
