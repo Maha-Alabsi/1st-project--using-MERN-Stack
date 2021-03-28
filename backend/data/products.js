@@ -24,7 +24,7 @@ const products = [
     status: 'New',
   },
   {
-    name: 'Chandelier',
+    name: 'Candelier',
     image: '/imgs/img4.jpg',
     price: '50$',
     description:
