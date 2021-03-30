@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './Header';
-import SearchForm  from './SearchForm';
+import Main  from './Main';
 
 const HomeScreen = () => {
   return (
     <div>
       <Header />
-      <SearchForm />
+      <Main />
     </div>
   );
 };

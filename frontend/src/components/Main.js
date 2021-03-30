@@ -8,12 +8,13 @@ import RenderProducts from './products-list/RenderProducts';
 import theme from './products-list/theme';
 
 //Search Feature
-const SearchForm = () => {
+const Main = () => {
   const [keyword, setKeyword] = useState('');
 
   const submitHandler = event => {
     event.preventDefault();
   };
+
   const handleChange = event => {
     setKeyword(event.target.value);
   };
@@ -25,8 +26,9 @@ const SearchForm = () => {
           container
           justify='center'
           alignItems='center'
-          style={{ height: '300px' }}
+          style={{ height: '200px' }}
         >
+          {/*Search for products*/}
           <form onSubmit={submitHandler}>
             <Grid container justify='center' alignItems='center'>
               <Grid item>
@@ -51,10 +53,11 @@ const SearchForm = () => {
             </Grid>
           </form>
         </Grid>
+        {/*Rendering products*/}
         <RenderProducts keyword={keyword} />
       </div>
     </ThemeProvider>
   );
 };
 
-export default SearchForm;
+export default Main;

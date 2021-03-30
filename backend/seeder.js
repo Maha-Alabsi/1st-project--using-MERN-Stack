@@ -4,7 +4,7 @@ import colors from 'colors';
 import products from './data/products.js';
 import Product from './models/productModel.js';
 import connectDB from './config/db.js';
-
+//ImportSample of data into the model database
 connectDB();
 dotenv.config();
 
