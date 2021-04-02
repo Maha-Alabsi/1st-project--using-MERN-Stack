@@ -13,13 +13,13 @@ const RenderProducts = ({keyword}) => {
 
   useEffect(() => {
     const fetchProduct = async function () {
-      const req = await fetch(
+      const res = await fetch(
         `http://localhost:5000/api/products?keyword=${keyword}`
       );
       try {
-        const res = await req.json();
-        setProducts(res);
-        return res;
+        const data = await res.json();
+        setProducts(data);
+        return data;
       } catch (error) {
         if (error.cod !== 200) {
           console.log('Error in Fetching', error);
