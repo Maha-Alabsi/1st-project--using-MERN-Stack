@@ -25,3 +25,8 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/products', productRoutes);
+
+// // error handling middleware
+// app.use(function(err,req,res,next){
+//     res.status(400).send({error: err.message});
+// })

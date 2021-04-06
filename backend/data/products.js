@@ -48,6 +48,14 @@ const products = [
     status: 'Sale',
   },
   {
+    name: 'Bed',
+    image: '/imgs/Bed.jpg',
+    price: '90$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
+  },
+  {
     name: 'Chair',
     image: '/imgs/img9.jpg',
     price: '90$',
@@ -55,6 +63,7 @@ const products = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
     status: 'New',
   },
+
   {
     name: 'Couch',
     image: '/imgs/img08.jpg',
@@ -105,11 +114,19 @@ const products = [
   },
   {
     name: 'Chair',
-    image: '/imgs/img012.jpg',
+    image: '/imgs/img34.jpg',
     price: '34$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
     status: 'Sale',
+  },
+  {
+    name: 'Bed',
+    image: '/imgs/Bed2.jpg',
+    price: '90$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
   },
   {
     name: 'Armchair',
@@ -151,11 +168,18 @@ const products = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
     status: 'Sale',
   },
-
   {
     name: 'Table',
     image: '/imgs/img28.jpg',
     price: '70$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
+  },
+  {
+    name: 'Bed',
+    image: '/imgs/bed5.jpg',
+    price: '90$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
     status: 'New',
@@ -169,9 +193,33 @@ const products = [
     status: 'New',
   },
   {
-    name: 'Couch',
-    image: '/imgs/img6.jpg',
+    name: 'Candelier',
+    image: '/imgs/img4.jpg',
+    price: '50$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Bed',
+    image: '/imgs/Bed3.jpg',
+    price: '90$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
+  },
+  {
+    name: 'Mirror',
+    image: '/imgs/img07.jpg',
     price: '80$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Couch',
+    image: '/imgs/img08.jpg',
+    price: '56$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
     status: 'Sale',
@@ -191,6 +239,14 @@ const products = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
     status: 'New',
+  },
+  {
+    name: 'Sofa',
+    image: '/imgs/img08.jpg',
+    price: '56$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
   },
   {
     name: 'Table',
@@ -241,6 +297,14 @@ const products = [
     status: 'Sale',
   },
   {
+    name: 'Bed',
+    image: '/imgs/bed4.jpg',
+    price: '90$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
+  },
+  {
     name: 'Couch',
     image: '/imgs/img6.jpg',
     price: '80$',
@@ -255,6 +319,22 @@ const products = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
     status: 'Sale',
+  },
+  {
+    name: 'Armchair',
+    image: '/imgs/img15.jpg',
+    price: '67$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Bed',
+    image: '/imgs/img24.jpg',
+    price: '90$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
   },
 ];
 

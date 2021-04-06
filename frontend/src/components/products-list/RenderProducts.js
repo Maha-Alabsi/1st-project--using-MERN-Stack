@@ -15,19 +15,18 @@ const RenderProducts = ({ keyword }) => {
   const [page, setPage] = useState(1);
   const [pages, setPages] = useState(1);
   const [items, setItems] = useState(1);
-  // const [pageSize, setSize] = useState(1);
-
-  // const [loading, setLoading] = useState(false);
+  const [pageSize, setSize] = useState(1);
 
   useEffect(() => {
     const fetchProducts = async function () {
       try {
         const res = await fetch(
-          `http://localhost:5000/api/products?keyword=${keyword}&page=${page}`
+          `/api/products?keyword=${keyword}&page=${page}`
         );
         const data = await res.json();
         setProducts(data.products);
         setPages(data.totalpages);
+        setSize(data.pageSize)
         setItems(data.totalitems);
         return data;
       } catch (error) {
@@ -43,7 +42,7 @@ const RenderProducts = ({ keyword }) => {
   return (
     <ThemeProvider theme={theme}>
       <main>
-        <Grid container justify='center' spacing={2}>
+        <Grid container justify='center' spacing={4}>
           <Grid item xs={12}>
             <CardContent className='gridNav'>
               <div>
@@ -54,12 +53,12 @@ const RenderProducts = ({ keyword }) => {
                   <li className='liStyle'>Size</li>
                 </ul>
               </div>
-              <div>Showing 01-08 of {items} Results</div>
+              <div>Showing {pageSize} items of {items} Results</div>
             </CardContent>
             <hr />
           </Grid>
 
-          <Grid item xs={12} style={{ marginTop: '30px' }}>
+          <Grid item xs={12}>
             <Container className={classes.cardGrid} maxWidth='lg'>
               <Grid container justify='center' spacing={4}>
                 {products.map(product => (

@@ -18,15 +18,18 @@ code {
   justify-content: space-between;
   align-items: center;
   height: 20px;
+  color: #434343;
 }
 
 .ulStyle {
   list-style: none;
   display: flex;
+ 
 }
 
 .liStyle {
   padding: 10px;
+  
 }
 
 .liStyle:hover {

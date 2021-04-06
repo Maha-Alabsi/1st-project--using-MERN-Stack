@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Pagination from '@material-ui/lab/Pagination';
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
   root: {

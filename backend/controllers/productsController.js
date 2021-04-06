@@ -4,14 +4,14 @@ import logger from '../../logger/index.js';
 const getProducts = async (req, res) => {
   try {
     const keyword = req.query.keyword
-    ? {
-        name: {
-          $regex: req.query.keyword,
-          $options: 'i',
-        },
-      }
-    : {};
-    
+      ? {
+          name: {
+            $regex: req.query.keyword,
+            $options: 'i',
+          },
+        }
+      : {};
+
     const page = parseInt(req.query.page || 1);
     const pageSize = parseInt(req.query.limit || 8);
     const skip = (page - 1) * pageSize;
@@ -27,6 +27,7 @@ const getProducts = async (req, res) => {
       status: 'success',
       count: products.length,
       totalitems,
+      pageSize,
       page,
       totalpages,
       products,
@@ -38,3 +39,5 @@ const getProducts = async (req, res) => {
 };
 
 export default getProducts;
+
+// catch (next)
