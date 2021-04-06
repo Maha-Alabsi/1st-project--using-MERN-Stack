@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
-import config  from './default.js';
+import logger from '../../logger/index.js';
+import config from './default.js';
 const db = config.mongoURI;
 
 const connectDB = async () => {
@@ -9,9 +10,9 @@ const connectDB = async () => {
       useNewUrlParser: true,
       useCreateIndex: true,
     });
-    console.log(`MongoDB Connected: ${conn.connection.host}`.cyan.underline);
+    logger.info(`MongoDB Connected: ${conn.connection.host}`.cyan.underline);
   } catch (error) {
-    console.error(`Error: ${error.message}`.red.underline.bold);
+    logger.error(`Error: ${error.message}`.red.underline.bold);
     process.exit(1);
   }
 };

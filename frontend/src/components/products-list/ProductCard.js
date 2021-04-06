@@ -11,9 +11,9 @@ import {
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import ZoomInIcon from '@material-ui/icons/ZoomIn';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
-import useStyles from './styles';
+import useStyles from '../styles';
 import { ThemeProvider } from '@material-ui/core/styles';
-import theme from './theme';
+import theme from '../theme';
 
 const ProductCard = ({ product }) => {
   const classes = useStyles();

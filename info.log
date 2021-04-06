@@ -1,0 +1,25 @@
+{"message":"\u001b[1m\u001b[33mServer is running in development port 5000\u001b[39m\u001b[22m","level":"info","service":"user-service","timestamp":"2021-04-06T12:01:05.676Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","service":"user-service","timestamp":"2021-04-06T12:01:07.443Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development port 5000\u001b[39m\u001b[22m","level":"info","service":"user-service","timestamp":"2021-04-06T12:02:35.232Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","service":"user-service","timestamp":"2021-04-06T12:02:36.999Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development port 5000\u001b[39m\u001b[22m","level":"info","service":"user-service","timestamp":"2021-04-06T12:16:55.461Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","service":"user-service","timestamp":"2021-04-06T12:16:57.977Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development port 5000\u001b[39m\u001b[22m","level":"info","service":"user-service","timestamp":"2021-04-06T12:20:08.165Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","service":"user-service","timestamp":"2021-04-06T12:20:09.943Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: keyword is not defined\u001b[39m\u001b[24m\u001b[22m","level":"error","service":"user-service","timestamp":"2021-04-06T12:20:10.109Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development port 5000\u001b[39m\u001b[22m","level":"info","service":"user-service","timestamp":"2021-04-06T12:20:16.141Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development port 5000\u001b[39m\u001b[22m","level":"info","service":"user-service","timestamp":"2021-04-06T12:20:18.402Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","service":"user-service","timestamp":"2021-04-06T12:20:20.111Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development port 5000\u001b[39m\u001b[22m","level":"info","service":"user-service","timestamp":"2021-04-06T12:22:53.471Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","service":"user-service","timestamp":"2021-04-06T12:22:55.218Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development port 5000\u001b[39m\u001b[22m","level":"info","service":"user-service","timestamp":"2021-04-06T12:22:58.545Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development port 5000\u001b[39m\u001b[22m","level":"info","service":"user-service","timestamp":"2021-04-06T12:23:01.610Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","service":"user-service","timestamp":"2021-04-06T12:23:03.132Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development port 5000\u001b[39m\u001b[22m","level":"info","service":"user-service","timestamp":"2021-04-06T12:24:37.962Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","service":"user-service","timestamp":"2021-04-06T12:24:39.687Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development port 5000\u001b[39m\u001b[22m","level":"info","service":"user-service","timestamp":"2021-04-06T12:24:42.947Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","service":"user-service","timestamp":"2021-04-06T12:24:44.509Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development port 5000\u001b[39m\u001b[22m","level":"info","service":"user-service","timestamp":"2021-04-06T12:25:25.002Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","service":"user-service","timestamp":"2021-04-06T12:25:26.470Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development port 5000\u001b[39m\u001b[22m","level":"info","service":"user-service","timestamp":"2021-04-06T12:25:28.584Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","service":"user-service","timestamp":"2021-04-06T12:25:30.173Z"}

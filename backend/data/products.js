@@ -32,7 +32,7 @@ const products = [
     status: 'Sale',
   },
   {
-    name: 'vase',
+    name: 'Vase',
     image: '/imgs/img05.jpg',
     price: '70$',
     description:
@@ -72,6 +72,30 @@ const products = [
     status: 'Sale',
   },
   {
+    name: 'Table',
+    image: '/imgs/img21.jpg',
+    price: '45$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
+  },
+  {
+    name: 'Bed',
+    image: '/imgs/img19.jpg',
+    price: '90$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
+  },
+  {
+    name: 'Table',
+    image: '/imgs/img23.jpg',
+    price: '60$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
     name: 'Sofa',
     image: '/imgs/img22.jpg',
     price: '90$',
@@ -91,6 +115,143 @@ const products = [
     name: 'Armchair',
     image: '/imgs/img15.jpg',
     price: '67$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Table',
+    image: '/imgs/img16.jpg',
+    price: '20$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
+  },
+  {
+    name: 'Candle',
+    image: '/imgs/img18.jpg',
+    price: '30$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Chair',
+    image: '/imgs/img012.jpg',
+    price: '34$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Armchair',
+    image: '/imgs/img15.jpg',
+    price: '67$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+
+  {
+    name: 'Table',
+    image: '/imgs/img28.jpg',
+    price: '70$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
+  },
+  {
+    name: 'Vase',
+    image: '/imgs/img05.jpg',
+    price: '70$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
+  },
+  {
+    name: 'Couch',
+    image: '/imgs/img6.jpg',
+    price: '80$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Table',
+    image: '/imgs/img31.jpg',
+    price: '80$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Bed',
+    image: '/imgs/img24.jpg',
+    price: '90$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
+  },
+  {
+    name: 'Table',
+    image: '/imgs/img30.jpg',
+    price: '90$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
+  },
+  {
+    name: 'Vase',
+    image: '/imgs/img25.jpg',
+    price: '56$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Table',
+    image: '/imgs/img17.jpg',
+    price: '80$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Bed',
+    image: '/imgs/img24.jpg',
+    price: '90$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
+  },
+  {
+    name: 'Chair',
+    image: '/imgs/img012.jpg',
+    price: '34$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Armchair',
+    image: '/imgs/img15.jpg',
+    price: '67$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Couch',
+    image: '/imgs/img6.jpg',
+    price: '80$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Table',
+    image: '/imgs/img31.jpg',
+    price: '80$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
     status: 'Sale',
