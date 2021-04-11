@@ -31,3 +31,5 @@
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: Found non-callable @@iterator\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-11T09:29:47.350Z"}
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: Found non-callable @@iterator\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-11T09:35:11.126Z"}
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: Found non-callable @@iterator\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-11T09:35:54.926Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: productSchema.validateAsync is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-11T15:36:44.591Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: productSchema.validateAsync is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-11T15:37:51.106Z"}

@@ -4,7 +4,7 @@ This project includes a simple form where you can use to search for a certain pr
 
 # Summary:
 ***
-subjects I learned while developing this project
+subjects I learned while building this project :
 
 1. Reactjs
 2. React Hooks [useState, useEffect]
