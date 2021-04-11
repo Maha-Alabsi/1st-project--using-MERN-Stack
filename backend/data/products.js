@@ -63,10 +63,9 @@ const products = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
     status: 'New',
   },
-
   {
     name: 'Couch',
-    image: '/imgs/img08.jpg',
+    image: '/imgs/sofa2.jpg',
     price: '56$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
@@ -183,6 +182,14 @@ const products = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
     status: 'New',
+  },
+  {
+    name: 'Mirror',
+    image: '/imgs/mirror.jpg',
+    price: '80$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
   },
   {
     name: 'Vase',
@@ -335,6 +342,46 @@ const products = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
     status: 'New',
+  },
+  {
+    name: 'Vase',
+    image: '/imgs/vase.jpg',
+    price: '70$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'New',
+  },
+  {
+    name: 'Sofa',
+    image: '/imgs/sofa.jpg',
+    price: '56$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Candelier',
+    image: '/imgs/candle23.jpg',
+    price: '50$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Clock',
+    image: '/imgs/clock.jpg',
+    price: '50$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
+  },
+  {
+    name: 'Table',
+    image: '/imgs/table.jpg',
+    price: '80$',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    status: 'Sale',
   },
 ];
 

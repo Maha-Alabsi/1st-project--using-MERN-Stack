@@ -1,1 +1,33 @@
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: keyword is not defined\u001b[39m\u001b[24m\u001b[22m","level":"error","service":"user-service","timestamp":"2021-04-06T12:20:10.109Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products is not defined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T10:43:31.260Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products is not defined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T10:43:40.600Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products is not defined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T10:47:20.015Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'length' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T11:04:58.095Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'length' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T11:04:59.858Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'products' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T11:12:51.950Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'products' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T11:12:56.523Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'products' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T11:15:16.102Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'products' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T11:15:49.975Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'products' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T11:32:51.213Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'products' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T11:32:55.076Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'products' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T11:35:01.461Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.json is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T11:35:01.811Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'products' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T11:36:59.815Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.json is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-08T11:37:00.145Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'products' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-10T11:40:38.624Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.json is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-10T11:40:39.037Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'products' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-10T11:52:57.716Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.json is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-10T11:52:58.070Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'products' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-10T11:54:53.140Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'products' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-10T11:58:50.872Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'products' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-10T12:00:51.316Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.json is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-10T12:00:51.688Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'products' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-10T14:27:20.338Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.json is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-10T14:29:39.584Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: newData is not defined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-10T14:33:47.082Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property '0' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-10T14:34:40.848Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property '0' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-10T14:34:44.336Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property '0' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-10T14:37:28.729Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Found non-callable @@iterator\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-11T09:29:47.350Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Found non-callable @@iterator\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-11T09:35:11.126Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Found non-callable @@iterator\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-11T09:35:54.926Z"}

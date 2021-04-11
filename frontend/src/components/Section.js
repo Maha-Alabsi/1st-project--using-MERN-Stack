@@ -8,7 +8,7 @@ const Section = () => {
         component='img'
         alt='Contemplative Reptile'
         height='300'
-        image='/imgs/img23.jpg'
+        image='/imgs/img36.jpg'
         title='Contemplative Reptile'
         style={{ opacity: '0.6' }}
       />

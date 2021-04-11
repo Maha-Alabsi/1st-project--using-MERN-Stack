@@ -24,9 +24,10 @@ const RenderProducts = ({ keyword }) => {
           `/api/products?keyword=${keyword}&page=${page}`
         );
         const data = await res.json();
+        // console.log(data.products);
         setProducts(data.products);
         setPages(data.totalpages);
-        setSize(data.pageSize)
+        setSize(data.pageSize);
         setItems(data.totalitems);
         return data;
       } catch (error) {
@@ -36,7 +37,7 @@ const RenderProducts = ({ keyword }) => {
       }
     };
     fetchProducts();
-  }, [keyword,page]);
+  }, [keyword, page]);
 
   const classes = useStyles();
   return (
@@ -53,7 +54,9 @@ const RenderProducts = ({ keyword }) => {
                   <li className='liStyle'>Size</li>
                 </ul>
               </div>
-              <div>Showing {pageSize} items of {items} Results</div>
+              <div>
+                Showing {pageSize} items of {items} Results
+              </div>
             </CardContent>
             <hr />
           </Grid>

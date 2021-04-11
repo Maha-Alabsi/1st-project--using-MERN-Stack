@@ -1,13 +1,21 @@
 {
-    "extends":["airbnb", "prettier","plugin:node/recommended"],
-    "plugins":["prettier"],
-    "rules": {
-        "no-unused-vars":"off",
-        "no-console":"off",
-        "func-names":"off",
-        "no-process-exit": "off",
-        "object-shorthand": "off",
-        "class-methods-use-this": "off",
-        "import/extensions": "ignorePackages"
-    }
+  "extends": [
+    "airbnb",
+    "prettier",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:node/recommended"
+  ],
+  "plugins": ["prettier","@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "no-unused-vars": "off",
+    "no-console": "off",
+    "func-names": "off",
+    "no-process-exit": "off",
+    "object-shorthand": "off",
+    "@typescript-eslint/rule-name": "error",
+    "class-methods-use-this": "off",
+    "import/extensions":"off"
+  }
 }
