@@ -8,6 +8,7 @@ import theme from '../theme';
 import PaginationComponent from './../Pagination';
 import CardContent from '@material-ui/core/CardContent';
 import '../../css/index.css';
+import Selectitems from './../Select'
 
 // Fetch products
 const RenderProducts = ({ keyword }) => {
@@ -15,13 +16,13 @@ const RenderProducts = ({ keyword }) => {
   const [page, setPage] = useState(1);
   const [pages, setPages] = useState(1);
   const [items, setItems] = useState(1);
-  const [pageSize, setSize] = useState(1);
+  const [pageSize, setSize] = useState(8);
 
   useEffect(() => {
     const fetchProducts = async function () {
       try {
         const res = await fetch(
-          `/api/products?keyword=${keyword}&page=${page}`
+          `/api/products?keyword=${keyword}&page=${page}&limit=${pageSize}`
         );
         const data = await res.json();
         // console.log(data.products);
@@ -37,7 +38,7 @@ const RenderProducts = ({ keyword }) => {
       }
     };
     fetchProducts();
-  }, [keyword, page]);
+  }, [keyword, page,pageSize]);
 
   const classes = useStyles();
   return (
@@ -54,8 +55,10 @@ const RenderProducts = ({ keyword }) => {
                   <li className='liStyle'>Size</li>
                 </ul>
               </div>
-              <div>
-                Showing {pageSize} items of {items} Results
+              <div className='gridNav'>
+                <p className='gridSelect'>Showing </p>
+                <Selectitems pageSize={pageSize} setPageSize={setSize}/>
+                <p className='gridSelect'>items of {items} Results</p>
               </div>
             </CardContent>
             <hr />
