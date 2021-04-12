@@ -1,22 +1,19 @@
 import logger from '../../../utilities/logger.js';
 import getProducts from '../../../services/productService.js';
- import productSchema from '../validation_schema.js'
-
 
 const productsController = async (req, res) => {
   try {
-    const value = productSchema.validateAsync(req.query)
-    const keyword = value.keyword
+    const keyword = req.query.keyword
       ? {
           name: {
-            $regex: value.keyword,
+            $regex: req.query.keyword,
             $options: 'i',
           },
         }
       : {};
 
-    const page = parseInt(value.page || 1);
-    const pageSize = parseInt(value.limit || 8);
+    const page = parseInt(req.query.page || 1);
+    const pageSize = parseInt(req.query.limit || 8);
 
     const returnedData = await getProducts(page, pageSize, { ...keyword });
 
