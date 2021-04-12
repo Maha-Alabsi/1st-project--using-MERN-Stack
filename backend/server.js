@@ -14,10 +14,11 @@ connectDB();
 const PORT = config.port || 5000;
 const NODE_ENV = config.env;
 
-app.listen(PORT, listening);
 function listening() {
-  logger.info(`Server is running in ${NODE_ENV} port ${PORT}`.yellow.bold);
+  logger.info(`Server is running in ${NODE_ENV} mode/ port ${PORT}`.yellow.bold);
 }
+app.listen(PORT, listening);
+
 
 // Routes
 app.get('/', (req, res) => {
@@ -26,7 +27,7 @@ app.get('/', (req, res) => {
 
 app.use('/api/products', index);
 
-process.on('uncaughtException', error => {
+process.on('uncaughtException', (error) => {
   logger.error('The exception was caught');
 });
 
