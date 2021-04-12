@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 GET  http://localhost:5000/api/products?keyword=sofa&page=6&limit=1
+=======
+GET  http://localhost:5000/api/products?keyword=sofa&page=6
+>>>>>>> 0b6460cfca273b09fe26d3d46316ea2d223117db
