@@ -5,35 +5,50 @@ import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import MenuIcon from '@material-ui/icons/Menu';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
-import { makeStyles } from '@material-ui/core';
+// import { makeStyles } from '@material-ui/core';
+import Link from '@material-ui/core/Link';
+import theme from './theme';
+import { ThemeProvider } from '@material-ui/core/styles';
 
-const useStyles = makeStyles({
-  hd: {
-    dispay: 'flex',
-    flexDirectiont: 'row',
-    justifyContent: 'space-between',
-    alignItem: 'center',
-  },
-  typo: {
-    color: '#c8a165',
-    fontWeight: 'bold',
-  },
-});
+
+import '../css/header.css';
+
+
+// const useStyles = makeStyles({
+//   hd: {
+//     display: 'flex',
+//     flexDirectiont: 'row',
+//     justifyContent: 'space-between',
+//     alignItem: 'center',
+//   },
+//   typo: {
+//     color: '#c8a165',
+//     fontWeight: 'bold',
+//   },
+// });
 const Header = () => {
-  const classes = useStyles();
+  // const classes = useStyles();
   return (
+    <ThemeProvider theme={theme}>
     <header>
       <CssBaseline />
       <AppBar position='relative' color='default'>
-        <Toolbar className={classes.hd}>
-          <MenuIcon fontSize='default' />
-          <Typography variant='h5' className={classes.typo}>
+        <Toolbar className='hdStyle'>
+        <Link href="#" >
+          <MenuIcon fontSize='default' className='materialLink' />
+          </Link>
+          <Link href="/" style={{textDecoration:'none'}}>
+          <Typography variant='h5'  color='primary' >
             Furniture Shop
           </Typography>
-          <ShoppingCartIcon fontSize='default' />
+          </Link>
+          <Link href="#" >
+          <ShoppingCartIcon fontSize='default' className='materialLink' />
+          </Link>
         </Toolbar>
       </AppBar>
     </header>
+    </ThemeProvider>
   );
 };
 export default Header;

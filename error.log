@@ -34,3 +34,12 @@
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: productSchema.validateAsync is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-11T15:36:44.591Z"}
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: productSchema.validateAsync is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-11T15:37:51.106Z"}
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: \"keyword\" is not allowed to be empty\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-12T15:48:16.892Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: \"limit\" must be a number\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-13T09:50:23.614Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ECONNREFUSED _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-13T13:34:04.000Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ECONNREFUSED _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-13T13:34:06.580Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ECONNREFUSED _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-13T13:34:13.198Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ECONNREFUSED _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-13T13:35:27.592Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ECONNREFUSED _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-13T13:35:30.564Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ECONNREFUSED _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-13T13:35:33.332Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ECONNREFUSED _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-13T13:35:39.087Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ECONNREFUSED _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-13T13:36:00.075Z"}

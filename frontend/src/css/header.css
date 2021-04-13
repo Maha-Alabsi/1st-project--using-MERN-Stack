@@ -1,0 +1,15 @@
+.hdStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.hdTypo {
+  color: #c8a165;
+  font-weight: bold;
+}
+
+.materialLink {
+  text-decoration: none;
+  color: #434343;
+}

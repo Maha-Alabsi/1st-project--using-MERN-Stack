@@ -1,0 +1,16 @@
+.reactLink {
+   text-decoration: none;
+   color: #434343;
+  }
+  .reactLink:hover{
+    color: #c8a165;
+  }
+
+  .pro-label{
+    border-radius: 5px;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    text-transform: capitalize;
+  }

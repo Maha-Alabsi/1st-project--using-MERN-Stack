@@ -12,30 +12,42 @@ code {
     monospace;
 }
 
+
 .gridNav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   height: 20px;
   color: #434343;
+  margin: 60px;
 }
+
 .gridSelect{
     padding: 10px;
+}
+
+.gridResult{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20px;
 }
 .ulStyle {
   list-style: none;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
  
 }
 
 .liStyle {
   padding: 10px;
-  
 }
 
 .liStyle:hover {
   color: #c8a165;
   cursor: pointer;
 }
-

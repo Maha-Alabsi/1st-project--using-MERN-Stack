@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: '100%',
     boxShadow: '0px 0px 5px gray',
@@ -25,6 +25,9 @@ const useStyles = makeStyles({
     justifyContent: 'space-between',
     marginLeft: '10px',
   },
-});
+  divider: {
+    margin: theme.spacing(2, 0),
+  },
+}));
 
 export default useStyles;

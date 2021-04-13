@@ -1,16 +1,17 @@
 import React from 'react';
 import CardMedia from '@material-ui/core/CardMedia';
+import '../css/section.css' 
 
 const Section = () => {
   return (
-    <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.9)' }}>
+    <div className='imageTransparent'>
       <CardMedia
         component='img'
         alt='Contemplative Reptile'
         height='300'
         image='/imgs/img36.jpg'
         title='Contemplative Reptile'
-        style={{ opacity: '0.6' }}
+        className='imageOpacity'
       />
     </div>
   );
