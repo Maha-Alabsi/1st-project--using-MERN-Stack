@@ -2,8 +2,6 @@ import React from 'react';
 import MenuItem from '@material-ui/core/MenuItem';
 import Select from '@material-ui/core/Select';
 
-
-
 const Selectitems = ({ pageSize, setPageSize }) => {
   const handleChange = (event, value) => {
     setPageSize(event.target.value);
@@ -15,14 +13,13 @@ const Selectitems = ({ pageSize, setPageSize }) => {
         id='demo-simple-select-required'
         value={pageSize}
         onChange={handleChange}
-        style={{   borderStyle:'none'}}
+        style={{ borderStyle: 'none' }}
       >
         <MenuItem value={4}>4</MenuItem>
         <MenuItem value={6}>6</MenuItem>
         <MenuItem value={8}>8</MenuItem>
         <MenuItem value={10}>10</MenuItem>
       </Select>
-
     </div>
   );
 };

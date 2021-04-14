@@ -18,6 +18,14 @@ const prodSchema = mongoose.Schema(
       type: String,
       required: true,
     },
+    size: {
+      type: String,
+      required: true,
+    },
+    material: {
+      type: String,
+      required: true,
+    },
     status: {
       type: String,
       required: true,

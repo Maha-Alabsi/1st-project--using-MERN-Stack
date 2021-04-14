@@ -1,6 +1,6 @@
 import React from 'react';
 import CardMedia from '@material-ui/core/CardMedia';
-import '../css/section.css' 
+import '../css/section.css';
 
 const Section = () => {
   return (

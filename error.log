@@ -43,3 +43,13 @@
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ECONNREFUSED _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-13T13:35:33.332Z"}
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ECONNREFUSED _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-13T13:35:39.087Z"}
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ECONNREFUSED _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-13T13:36:00.075Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cast to ObjectId failed for value \":id\" at path \"_id\" for model \"Product\"\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-14T09:33:16.967Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Product\"\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-14T09:33:22.290Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cast to ObjectId failed for value \"DEV-MALABSI-1616602773628\" at path \"_id\" for model \"Product\"\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-14T09:33:50.744Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: \"id\" must be a number\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-14T09:41:09.150Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cast to ObjectId failed for value \"60\" at path \"_id\" for model \"Product\"\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-14T09:45:04.036Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: \"id\" with value \"60\" fails to match the valid mongo id pattern\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-14T10:34:20.970Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: \"id\" with value \"60a\" fails to match the valid mongo id pattern\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-14T10:34:27.603Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: \"id\" with value \"6\" fails to match the valid mongo id pattern\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-14T10:34:47.540Z"}
+{"message":"\u001b[7m\u001b[31mError: Product validation failed: material: Path `material` is required., size: Path `size` is required.\u001b[39m\u001b[27m","level":"error","timestamp":"2021-04-14T13:18:29.462Z"}
+{"message":"The exception was caught","level":"error","timestamp":"2021-04-14T13:21:43.508Z"}

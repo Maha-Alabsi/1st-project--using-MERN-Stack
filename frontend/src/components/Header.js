@@ -10,44 +10,29 @@ import Link from '@material-ui/core/Link';
 import theme from './theme';
 import { ThemeProvider } from '@material-ui/core/styles';
 
-
 import '../css/header.css';
 
-
-// const useStyles = makeStyles({
-//   hd: {
-//     display: 'flex',
-//     flexDirectiont: 'row',
-//     justifyContent: 'space-between',
-//     alignItem: 'center',
-//   },
-//   typo: {
-//     color: '#c8a165',
-//     fontWeight: 'bold',
-//   },
-// });
 const Header = () => {
-  // const classes = useStyles();
   return (
     <ThemeProvider theme={theme}>
-    <header>
-      <CssBaseline />
-      <AppBar position='relative' color='default'>
-        <Toolbar className='hdStyle'>
-        <Link href="#" >
-          <MenuIcon fontSize='default' className='materialLink' />
-          </Link>
-          <Link href="/" style={{textDecoration:'none'}}>
-          <Typography variant='h5'  color='primary' >
-            Furniture Shop
-          </Typography>
-          </Link>
-          <Link href="#" >
-          <ShoppingCartIcon fontSize='default' className='materialLink' />
-          </Link>
-        </Toolbar>
-      </AppBar>
-    </header>
+      <header>
+        <CssBaseline />
+        <AppBar position='relative' color='default'>
+          <Toolbar className='hdStyle'>
+            <Link href='#'>
+              <MenuIcon fontSize='default' className='materialLink' />
+            </Link>
+            <Link href='/' style={{ textDecoration: 'none' }}>
+              <Typography variant='h5' color='primary'>
+                Furniture Shop
+              </Typography>
+            </Link>
+            <Link href='#'>
+              <ShoppingCartIcon fontSize='default' className='materialLink' />
+            </Link>
+          </Toolbar>
+        </AppBar>
+      </header>
     </ThemeProvider>
   );
 };

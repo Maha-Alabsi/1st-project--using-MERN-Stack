@@ -4,7 +4,7 @@ import '../../css/index.css';
 import Grid from '@material-ui/core/Grid';
 import Divider from '@material-ui/core/Divider';
 
-const productsNav = ({pageSize,setSize,items}) => {
+const productsNav = ({ pageSize, setSize, items }) => {
   return (
     <div>
       <Grid

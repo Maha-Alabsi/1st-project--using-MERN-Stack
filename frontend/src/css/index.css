@@ -12,7 +12,6 @@ code {
     monospace;
 }
 
-
 .gridNav {
   display: flex;
   flex-direction: row;
@@ -23,11 +22,11 @@ code {
   margin: 60px;
 }
 
-.gridSelect{
-    padding: 10px;
+.gridSelect {
+  padding: 10px;
 }
 
-.gridResult{
+.gridResult {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -40,7 +39,6 @@ code {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
- 
 }
 
 .liStyle {

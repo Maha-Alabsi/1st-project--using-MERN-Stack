@@ -14,9 +14,8 @@ import useStyles from '../styles';
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from '../theme';
 import { Link } from 'react-router-dom';
-import '../../css/card.css'
+import '../../css/card.css';
 import Box from '@material-ui/core/Box';
-
 
 const ProductCard = ({ product }) => {
   const classes = useStyles();
@@ -33,10 +32,7 @@ const ProductCard = ({ product }) => {
         </Link>
         <CardContent>
           <div className={classes.cardContent}>
-            <Link
-              to={`/product/${product._id}`}
-              className='reactLink'
-            >
+            <Link to={`/product/${product._id}`} className='reactLink'>
               <Typography variant='h6' gutterBottom>
                 {product.name}
               </Typography>
@@ -54,10 +50,7 @@ const ProductCard = ({ product }) => {
           className={classes.CardActions}
         ></CardActions>
         <div className={classes.bottomRow}>
-          <Box Container
-            bgcolor={bgColor}
-            className='pro-label'
-          >
+          <Box Container bgcolor={bgColor} className='pro-label'>
             {product.status}
           </Box>
           <div>

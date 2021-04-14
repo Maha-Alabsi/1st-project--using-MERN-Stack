@@ -5,6 +5,9 @@ const products = [
     price: '20$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -13,6 +16,9 @@ const products = [
     price: '30$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -21,6 +27,9 @@ const products = [
     price: '45$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -29,6 +38,9 @@ const products = [
     price: '50$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -37,6 +49,9 @@ const products = [
     price: '70$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -45,6 +60,9 @@ const products = [
     price: '80$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -53,6 +71,9 @@ const products = [
     price: '90$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -61,6 +82,9 @@ const products = [
     price: '90$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -69,6 +93,9 @@ const products = [
     price: '56$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -77,6 +104,9 @@ const products = [
     price: '80$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -85,6 +115,9 @@ const products = [
     price: '45$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -93,6 +126,9 @@ const products = [
     price: '90$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -101,6 +137,9 @@ const products = [
     price: '60$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -109,6 +148,9 @@ const products = [
     price: '90$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -117,6 +159,9 @@ const products = [
     price: '34$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -125,6 +170,9 @@ const products = [
     price: '90$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -133,6 +181,9 @@ const products = [
     price: '67$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -141,6 +192,9 @@ const products = [
     price: '20$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -149,6 +203,9 @@ const products = [
     price: '30$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -157,6 +214,9 @@ const products = [
     price: '34$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -165,6 +225,9 @@ const products = [
     price: '67$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -173,6 +236,9 @@ const products = [
     price: '70$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -181,6 +247,9 @@ const products = [
     price: '90$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -189,6 +258,9 @@ const products = [
     price: '80$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -197,6 +269,9 @@ const products = [
     price: '70$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -205,6 +280,9 @@ const products = [
     price: '50$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -213,6 +291,9 @@ const products = [
     price: '90$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -221,6 +302,9 @@ const products = [
     price: '80$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -229,6 +313,9 @@ const products = [
     price: '56$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -237,6 +324,9 @@ const products = [
     price: '80$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -245,6 +335,9 @@ const products = [
     price: '90$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -253,6 +346,9 @@ const products = [
     price: '56$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -261,6 +357,9 @@ const products = [
     price: '90$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -269,6 +368,9 @@ const products = [
     price: '56$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -277,14 +379,20 @@ const products = [
     price: '80$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
     name: 'Bed',
     image: '/imgs/img24.jpg',
-    price: '90$',
+    price: '92$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -293,6 +401,9 @@ const products = [
     price: '34$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -301,14 +412,20 @@ const products = [
     price: '67$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
     name: 'Bed',
     image: '/imgs/bed4.jpg',
-    price: '90$',
+    price: '42$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -317,6 +434,9 @@ const products = [
     price: '80$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -325,6 +445,9 @@ const products = [
     price: '80$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -333,6 +456,9 @@ const products = [
     price: '67$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -341,6 +467,9 @@ const products = [
     price: '90$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -349,6 +478,9 @@ const products = [
     price: '70$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'New',
   },
   {
@@ -357,6 +489,9 @@ const products = [
     price: '56$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -365,6 +500,9 @@ const products = [
     price: '50$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -373,6 +511,9 @@ const products = [
     price: '50$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
   {
@@ -381,6 +522,9 @@ const products = [
     price: '80$',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dolor orci, euismod at.',
+    size: '30*h x 20*w x 22.75*d (76.5x51x58cm)',
+    material:
+      'wood/plastic composition with 25% wood fibers +70% PP (polypoplen) +5% coloured PP',
     status: 'Sale',
   },
 ];

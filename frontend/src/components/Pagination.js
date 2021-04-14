@@ -12,7 +12,7 @@ const useStyles = makeStyles(theme => ({
 
 const PaginationComponent = ({ page, pages, changePage }) => {
   const classes = useStyles();
-  
+
   const handleChange = (event, value) => {
     changePage(value);
   };

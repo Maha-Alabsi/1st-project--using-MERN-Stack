@@ -1,4 +1,4 @@
-import logger from '../../../utilities/logger.js';
+import logger from '../../../utils/logger.js';
 import getProducts from '../../../services/productService.js';
 import productSchema from '../validation_schema.js';
 
