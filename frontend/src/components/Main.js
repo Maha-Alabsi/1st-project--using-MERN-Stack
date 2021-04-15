@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
+import RenderProducts from './products-list/RenderProducts';
+import useStyles from '../styles/main';
+// Material UI Component
 import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
 import SearchIcon from '@material-ui/icons/Search';
 import InputAdornment from '@material-ui/core/InputAdornment';
-import { ThemeProvider } from '@material-ui/core/styles';
-import RenderProducts from './products-list/RenderProducts';
-import theme from './theme';
 import Container from '@material-ui/core/Container';
 import CardContent from '@material-ui/core/CardContent';
 import Card from '@material-ui/core/Card';
 
 //Search Feature
 const Main = () => {
+  const classes = useStyles();
+
   const [keyword, setKeyword] = useState('');
 
   const submitHandler = event => {
@@ -23,14 +25,13 @@ const Main = () => {
   };
 
   return (
-    <ThemeProvider theme={theme}>
       <div>
         <Container>
           <Grid
             container
             justify='center'
             alignItems='center'
-            style={{ height: '200px' }}
+            className={classes.gridHeight}
           >
             {/*Search for products*/}
             <Grid item>
@@ -47,7 +48,7 @@ const Main = () => {
                           type='text'
                           label='Search Products...'
                           size='small'
-                          style={{ color: 'white', width: '400px' }}
+                          className={classes.tFieldColor}
                           InputProps={{
                             startAdornment: (
                               <InputAdornment position='start'>
@@ -67,7 +68,6 @@ const Main = () => {
           <RenderProducts keyword={keyword} />
         </Container>
       </div>
-    </ThemeProvider>
   );
 };
 

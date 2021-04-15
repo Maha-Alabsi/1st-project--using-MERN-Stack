@@ -1,17 +1,19 @@
 import React from 'react';
+// Material UI Components
 import CardMedia from '@material-ui/core/CardMedia';
-import '../css/section.css';
+import useStyles from '../styles/section';
 
 const Section = () => {
+  const classes = useStyles();
   return (
-    <div className='imageTransparent'>
+    <div className={classes.imageTransparent}>
       <CardMedia
         component='img'
         alt='Contemplative Reptile'
         height='300'
         image='/imgs/img36.jpg'
         title='Contemplative Reptile'
-        className='imageOpacity'
+        className={classes.imageOpacity}
       />
     </div>
   );

@@ -1,18 +1,10 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import useStyles from '../styles/pagination';
+// Material UI Components
 import Pagination from '@material-ui/lab/Pagination';
-
-const useStyles = makeStyles(theme => ({
-  root: {
-    '& > *': {
-      marginTop: theme.spacing(2),
-    },
-  },
-}));
 
 const PaginationComponent = ({ page, pages, changePage }) => {
   const classes = useStyles();
-
   const handleChange = (event, value) => {
     changePage(value);
   };
