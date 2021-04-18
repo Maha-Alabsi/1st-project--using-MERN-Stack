@@ -37,7 +37,7 @@ const Main = () => {
             <Grid item>
               <Card>
                 <CardContent>
-                  <form onSubmit={submitHandler}>
+                  <form onSubmit={submitHandler} className={classes.root}>
                     <Grid container alignItems='center'>
                       <Grid item>
                         <TextField
@@ -48,7 +48,8 @@ const Main = () => {
                           type='text'
                           label='Search Products...'
                           size='small'
-                          className={classes.tFieldColor}
+                          color='secondary'
+                          className={classes.tFieldStyle}
                           InputProps={{
                             startAdornment: (
                               <InputAdornment position='start'>

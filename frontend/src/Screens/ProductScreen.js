@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Header from './../components/Header';
 import Section from '../components/Section';
 import useStyles from '../styles/proScreen';
 import comStyles from '../styles/index';
@@ -40,7 +39,6 @@ const ProductScreen = props => {
   }, [props.match.params.id]);
   return (
     <div>
-      <Header />
       <Section />
       <Container className={classes.mainContainer}>
         <Breadcrumbs aria-label='breadcrumb'>
@@ -60,26 +58,18 @@ const ProductScreen = props => {
           />
           <div className={classes.details}>
             <CardContent className={classes.content}>
-              <Typography variant='h5' color=' secondary'>
+              <Typography variant='h5' className={classes.mainHeader}>
                 {product.name}
               </Typography>
-              <Typography variant='h6' color='tertiary'>
+              <Typography variant='h6' className={classes.mainPrice}>
                 {product.price}
               </Typography>
-              <Typography
-                variant='body2'
-                color='textSecondary'
-                className={classes.typoDescrip}
-              >
+              <Typography variant='body2' className={classes.typoDescrip}>
                 {product.description}
               </Typography>
               <Box display='flex-end' mt={2}>
                 <Box>
-                  <Typography
-                    variant='subtitle2'
-                    color=' tertiary'
-                    className={classes.subHeader}
-                  >
+                  <Typography variant='subtitle2' className={classes.subHeader}>
                     color
                   </Typography>
                 </Box>
@@ -115,26 +105,24 @@ const ProductScreen = props => {
                 </Box>
               </Box>
               <Box mt={2}>
-                <Typography
-                  variant='subtitle2'
-                  color=' tertiary'
-                  className={classes.subHeader}
-                >
+                <Typography variant='subtitle2' className={classes.subHeader}>
                   size
                 </Typography>
-                <Typography variant='body2' color='textSecondary'>
+                <Typography
+                  variant='body2'
+                  className={classes.subHdDescription}
+                >
                   {product.size}
                 </Typography>
               </Box>
               <Box mt={2} mb={4}>
-                <Typography
-                  variant='subtitle2'
-                  color=' tertiary'
-                  className={classes.subHeader}
-                >
+                <Typography variant='subtitle2' className={classes.subHeader}>
                   material
                 </Typography>
-                <Typography variant='body2' color='textSecondary'>
+                <Typography
+                  variant='body2'
+                  className={classes.subHdDescription}
+                >
                   {product.material}
                 </Typography>
               </Box>
@@ -144,9 +132,8 @@ const ProductScreen = props => {
                   <Box m={1}>
                     <Button
                       variant='contained'
-                      color='secondary'
                       size='small'
-                      className={classes.subHeader}
+                      className={`${classes.subHeader} ${classes.btnColor}`}
                     >
                       buy now
                     </Button>

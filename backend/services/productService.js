@@ -9,7 +9,8 @@ const getProducts = async (page, pageSize, keyword) => {
     const totalpages = Math.ceil(totalitems / pageSize);
 
     const products = await Product.find(keyword).skip(skip).limit(pageSize);
-
+    // const returnedItem =await products.count();
+    // console.log( returnedItem );
     const returnedobj = {
       totalpages: totalpages,
       products: products,

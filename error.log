@@ -53,3 +53,17 @@
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: \"id\" with value \"6\" fails to match the valid mongo id pattern\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-14T10:34:47.540Z"}
 {"message":"\u001b[7m\u001b[31mError: Product validation failed: material: Path `material` is required., size: Path `size` is required.\u001b[39m\u001b[27m","level":"error","timestamp":"2021-04-14T13:18:29.462Z"}
 {"message":"The exception was caught","level":"error","timestamp":"2021-04-14T13:21:43.508Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.countDocuments is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:58:04.212Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:58:04.212Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.count is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:31.582Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:31.583Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.count is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:32.474Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:32.476Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.count is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:33.809Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:33.810Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.count is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:33.962Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:33.963Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.count is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:34.216Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:34.216Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.count is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:46.936Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:46.937Z"}

@@ -19,7 +19,7 @@ import Box from '@material-ui/core/Box';
 const ProductCard = ({ product }) => {
   const classes = useStyles();
   const commonClasses = comStyles();
-  const bgColor = product.status === 'New' ? 'primary.main' : 'secondary.main';
+  const bgColor = product.status === 'New' ? 'secondary.main' : 'tertiary.main';
   return (
     <Card className={classes.root}>
       <Link to={`/product/${product._id}`}>
@@ -35,15 +35,15 @@ const ProductCard = ({ product }) => {
             to={`/product/${product._id}`}
             className={commonClasses.reactLink}
           >
-            <Typography variant='h6' gutterBottom>
+            <Typography variant='h6'>
               {product.name}
             </Typography>
           </Link>
-          <Typography variant='h6' gutterBottom>
+          <Typography variant='h6'>
             {product.price}
           </Typography>
         </div>
-        <Typography variant='body2' color='textSecondary'>
+        <Typography variant='body2' className={classes.cardDescription} >
           {product.description}
         </Typography>
       </CardContent>

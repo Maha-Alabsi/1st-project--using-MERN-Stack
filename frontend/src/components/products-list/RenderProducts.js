@@ -52,10 +52,10 @@ const RenderProducts = ({ keyword }) => {
           <Grid item xs={12} sm={6} container className={classes.gridNav}>
             <Grid item className={classes.contLeftPadding}>
               <ul className={classes.ulStyle}>
-                <li className={classes.liStyle}>Categories</li>
-                <li className={classes.liStyle}>Price</li>
-                <li className={classes.liStyle}>Color</li>
-                <li className={classes.liStyle}>Size</li>
+                <li className={classes.liStyle}>categories</li>
+                <li className={classes.liStyle}>price</li>
+                <li className={classes.liStyle}>color</li>
+                <li className={classes.liStyle}>size</li>
               </ul>
             </Grid>
           </Grid>
@@ -63,9 +63,9 @@ const RenderProducts = ({ keyword }) => {
             <div
               className={`${classes.result} ${classes.elementDisplay} ${classes.contRightPadding}`}
             >
-              <p className={classes.gridSelect}>Showing </p>
+              <p className={classes.gridSelect}>showing </p>
               <Selectitems pageSize={pageSize} setPageSize={setSize} />
-              <p className={classes.itemResult}>items of {items} Results</p>
+              <p className={classes.itemResult}>items of {items} results</p>
             </div>
           </Grid>
         </Grid>

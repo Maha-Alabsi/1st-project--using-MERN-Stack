@@ -1,17 +1,26 @@
 import { createMuiTheme } from '@material-ui/core/styles';
 
-const theme = createMuiTheme({
+const Theme3 = createMuiTheme({
   palette: {
+    common: {
+      black: '#000',
+      white: '#fff',
+    },
     primary: {
-      main: '#c8a165',
+      main: '#a17a74',
+      dark: '#fbe1b1',
     },
     secondary: {
-      main: '#c87065',
+      main: '#fbe1b1',
     },
     tertiary: {
-      main: '#434343',
+      main: '#e2cec0',
+      dark: '#9e9086',
+    },
+    text: {
+      primary: '#434343',
+      secondary: '#9e9e9e',
     },
   },
 });
-
-export default theme;
+export default Theme3;

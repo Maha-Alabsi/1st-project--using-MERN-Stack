@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme)=>({
   hdStyle: {
     display: 'flex',
     flexDirection: 'row',
@@ -7,16 +7,15 @@ const useStyles = makeStyles({
     alignItems: 'center',
   },
   hdTypo: {
-    color: '#c8a165',
+    color: theme.palette.secondary.main,
     fontWeight: 'bold',
   },
   materialLink: {
     textDecoration: 'none',
-    color: '#434343',
   },
   linkDecoration: {
     textDecoration: 'none',
   },
-});
+}));
 
 export default useStyles;

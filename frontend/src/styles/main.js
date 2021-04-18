@@ -1,13 +1,11 @@
-import { makeStyles } from '@material-ui/core/styles';
-const useStyles = makeStyles({
+import { makeStyles} from '@material-ui/core/styles';
+const useStyles = makeStyles((theme)=>({
   gridHeight: {
     height: '200px',
   },
-
-  tFieldColor: {
-    color: 'white',
+  tFieldStyle: {
     width: '400px',
   },
-});
+}));
 
 export default useStyles;

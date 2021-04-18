@@ -1,12 +1,15 @@
 import { makeStyles } from '@material-ui/core/styles';
-const comStyles = makeStyles({
+const comStyles = makeStyles((theme)=>({
     reactLink: {
         textDecoration: 'none',
-        color: '#434343',
+        color:theme.palette.text.primary,
         '&:hover': {
-          color: '#c8a165',
+          color: theme.palette.secondary.main,
         },
-    }
-});
+    },
+    hdIcon:{ 
+      color: theme.palette.primary.dark,
+    },
+}));
 
 export default comStyles;

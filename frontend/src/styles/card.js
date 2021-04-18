@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme)=>({
   root: {
     maxWidth: '100%',
     boxShadow: '0px 0px 5px gray',
@@ -15,7 +15,10 @@ const useStyles = makeStyles({
   cardContent: {
     display: 'flex',
     justifyContent: 'space-between',
-    color: '#434343',
+    color: theme.palette.text.primary,
+  },
+  cardDescription:{
+    color: theme.palette.text.secondary,
   },
   bottomRow: {
     display: 'flex',
@@ -26,12 +29,12 @@ const useStyles = makeStyles({
   },
   proLabel: {
     borderRadius: '5px',
-    color: '#fff',
+    color: theme.palette.common.white,
     height: '25px',
     lineHeight: '25px',
     padding: '0 10px',
     textTransform: 'capitalize',
   },
-});
+}));
 
 export default useStyles;

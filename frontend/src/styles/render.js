@@ -6,7 +6,6 @@ const useStyles = makeStyles(theme => ({
     justifyContent: 'flex-start',
     alignItems: 'center',
     height: '100px',
-    color: '#434343',
   },
   ulStyle: {
     listStyle: 'none',
@@ -17,9 +16,10 @@ const useStyles = makeStyles(theme => ({
   liStyle: {
     padding: '10px',
     '&:hover': {
-      color: '#c8a165',
+      color: theme.palette.secondary.main,
       cursor: 'pointer',
     },
+    textTransform: 'capitalize',
   },
   gridResult: {
     display: 'flex',
@@ -27,6 +27,7 @@ const useStyles = makeStyles(theme => ({
     justifyContent: 'flex-end',
     alignItems: 'center',
     height: '20px',
+    textTransform: 'capitalize',
   },
   result: {
     display: 'flex',
@@ -59,14 +60,14 @@ const useStyles = makeStyles(theme => ({
   contRightPadding: {
     paddingRight: 10,
   },
-  cardGrid:{
+  cardGrid: {
     marginTop: 20,
   },
-  paginationStyle:{
+  paginationStyle: {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'center',
-  }
+  },
 }));
 
 export default useStyles;
