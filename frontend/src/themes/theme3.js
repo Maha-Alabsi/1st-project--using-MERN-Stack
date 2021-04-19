@@ -1,5 +1,5 @@
 import { createMuiTheme } from '@material-ui/core/styles';
-
+import '../font.css'
 const Theme3 = createMuiTheme({
   palette: {
     common: {
@@ -22,5 +22,9 @@ const Theme3 = createMuiTheme({
       secondary: '#9e9e9e',
     },
   },
+  typography:{
+    fontFamily: ['Playfair Display', 'serif'],
+    fontWeightRegular: 500
+  }
 });
 export default Theme3;
