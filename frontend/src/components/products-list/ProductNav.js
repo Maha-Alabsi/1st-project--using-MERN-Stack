@@ -2,44 +2,42 @@ import React from 'react';
 import Selectitems from '../Select';
 import '../../css/index.css';
 import Grid from '@material-ui/core/Grid';
-import Divider from '@material-ui/core/Divider';
+import useStyles from '../../styles/render';
 
-const productsNav = ({ pageSize, setSize, items }) => {
+const ProductsNav = ({ pageSize1, setSize1, items1 }) => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const classes = useStyles();
   return (
     <div>
       <Grid
-        item
         container
         direction='row'
-        justify='space-between'
         alignItems='center'
-        spacing={6}
+        spacing={5}
+        className={classes.contHeight2}
       >
-        <Grid
-          item
-          className='gridNav'
-          xs={6}
-          sm={6}
-          style={{ paddingLeft: 40 }}
-        >
-          <ul className='ulStyle'>
-            <li className='liStyle'>Categories</li>
-            <li className='liStyle'>Price</li>
-            <li className='liStyle'>Color</li>
-            <li className='liStyle'>Size</li>
-          </ul>
+        <Grid item xs={12} sm={6} className={classes.gridNav}>
+          <div className={classes.contLeftPadding}>
+            <ul className={classes.ulStyle}>
+              <li className={classes.liStyle}>categories</li>
+              <li className={classes.liStyle}>price</li>
+              <li className={classes.liStyle}>color</li>
+              <li className={classes.liStyle}>size</li>
+            </ul>
+          </div>
         </Grid>
-        <Grid item className='gridResult' xs={12} sm={6}>
-          <div className='gridNav'>
-            <p className='gridSelect'>Showing </p>
-            <Selectitems pageSize={pageSize} setPageSize={setSize} />
-            <p className='gridSelect'>items of {items} Results</p>
+        <Grid item xs={12} sm={6} className={classes.gridResult}>
+          <div
+            className={`${classes.result} ${classes.elementDisplay} ${classes.contRightPadding}`}
+          >
+            <p className={classes.gridSelect}>showing </p>
+            <Selectitems pageSize={pageSize1} setPageSize={setSize1} />
+            <p className={classes.itemResult}>items of {items1} results</p>
           </div>
         </Grid>
       </Grid>
-      <Divider />
     </div>
   );
 };
 
-export default productsNav;
+export default ProductsNav;

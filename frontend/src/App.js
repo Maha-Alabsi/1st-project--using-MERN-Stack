@@ -1,21 +1,21 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Header from './components/Header';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { ThemeProvider } from '@material-ui/core';
-import Header from './components/Header'
 import Themes from './constants/theme';
-import getTheme from './getTheme'
-const App = () => {
-  const [themeName,setThemeName] = useState(Themes.Theme1);
+import getTheme from './getTheme';
+import { ThemeProvider } from '@material-ui/core';
 
+const App = () => {
+  const [themeName, setThemeName] = useState(Themes.Theme1);
   return (
     <ThemeProvider theme={getTheme(themeName)}>
       <Router>
         <div>
-          <Header setTheme={setThemeName}/>
+          <Header setTheme={setThemeName} />
           <Route exact path='/' component={HomeScreen} />
-          <Route path='/product/:id' component={ProductScreen} />
+          <Route exact path='/product/:id' component={ProductScreen} />
         </div>
       </Router>
     </ThemeProvider>

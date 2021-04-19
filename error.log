@@ -67,3 +67,19 @@
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:34.216Z"}
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: products.count is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:46.936Z"}
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-17T21:59:46.937Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: #<Object> is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-18T21:01:47.502Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-18T21:01:47.503Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: #<Object> is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-18T21:01:55.354Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-18T21:01:55.354Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: #<Object> is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-18T21:04:01.995Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-18T21:04:01.995Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: #<Object> is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-18T21:05:49.628Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-18T21:05:49.629Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: #<Object> is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-18T21:05:51.943Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-18T21:05:51.944Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.aggregate is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-19T08:40:26.822Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-19T08:40:26.822Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: products.count is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-19T08:41:14.874Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-19T08:41:14.874Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: #<Object> is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-19T08:42:06.372Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-19T08:42:06.373Z"}

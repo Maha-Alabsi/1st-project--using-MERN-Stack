@@ -1,7 +1,7 @@
 import React from 'react';
+import useStyles from '../styles/section';
 // Material UI Components
 import CardMedia from '@material-ui/core/CardMedia';
-import useStyles from '../styles/section';
 
 const Section = () => {
   const classes = useStyles();

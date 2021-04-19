@@ -10,11 +10,11 @@ import {
   CardMedia,
   IconButton,
   Typography,
+  Box 
 } from '@material-ui/core';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import ZoomInIcon from '@material-ui/icons/ZoomIn';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
-import Box from '@material-ui/core/Box';
 
 const ProductCard = ({ product }) => {
   const classes = useStyles();
@@ -35,15 +35,11 @@ const ProductCard = ({ product }) => {
             to={`/product/${product._id}`}
             className={commonClasses.reactLink}
           >
-            <Typography variant='h6'>
-              {product.name}
-            </Typography>
+            <Typography variant='h6'>{product.name}</Typography>
           </Link>
-          <Typography variant='h6'>
-            {product.price}
-          </Typography>
+          <Typography variant='h6'>{product.price}</Typography>
         </div>
-        <Typography variant='body2' className={classes.cardDescription} >
+        <Typography variant='body2' className={classes.cardDescription}>
           {product.description}
         </Typography>
       </CardContent>

@@ -1,7 +1,6 @@
 import React from 'react';
 // Material UI Components
-import MenuItem from '@material-ui/core/MenuItem';
-import Select from '@material-ui/core/Select';
+import { MenuItem, Select } from '@material-ui/core';
 
 const Selectitems = ({ pageSize, setPageSize }) => {
   const handleChange = (event, value) => {

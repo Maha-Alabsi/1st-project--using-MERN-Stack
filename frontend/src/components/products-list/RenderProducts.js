@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import useStyles from '../../styles/render';
 import ProductCard from './ProductCard';
-// Material UI Components
-import Grid from '@material-ui/core/Grid';
-import { Container } from '@material-ui/core';
 import PaginationComponent from './../Pagination';
-import Divider from '@material-ui/core/Divider';
 import Selectitems from './../Select';
+// Material UI Components
+import { Container, Divider, Grid } from '@material-ui/core';
 
 // Fetch products
 const RenderProducts = ({ keyword }) => {
@@ -49,17 +47,17 @@ const RenderProducts = ({ keyword }) => {
           spacing={5}
           className={classes.contHeight2}
         >
-          <Grid item xs={12} sm={6} container className={classes.gridNav}>
-            <Grid item className={classes.contLeftPadding}>
+          <Grid item xs={12} sm={6} className={classes.gridNav}>
+            <div className={classes.contLeftPadding}>
               <ul className={classes.ulStyle}>
                 <li className={classes.liStyle}>categories</li>
                 <li className={classes.liStyle}>price</li>
                 <li className={classes.liStyle}>color</li>
                 <li className={classes.liStyle}>size</li>
               </ul>
-            </Grid>
+            </div>
           </Grid>
-          <Grid item className={classes.gridResult} sm={6}>
+          <Grid item xs={12} sm={6} className={classes.gridResult}>
             <div
               className={`${classes.result} ${classes.elementDisplay} ${classes.contRightPadding}`}
             >
