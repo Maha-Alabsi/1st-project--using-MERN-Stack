@@ -8,7 +8,6 @@ const useStyles = makeStyles(theme => ({
   },
   hdTypo: {
     color: theme.palette.secondary.main,
-    fontWeight: 'bold',
   },
   materialLink: {
     textDecoration: 'none',

@@ -31,7 +31,7 @@ const Header = ({ setTheme }) => {
             </IconButton>
           </Link>
           <Link href='/'>
-            <Typography variant='h6' className={classes.hdTypo}>
+            <Typography variant='h1' className={classes.hdTypo}>
               Furniture Shop
             </Typography>
           </Link>
