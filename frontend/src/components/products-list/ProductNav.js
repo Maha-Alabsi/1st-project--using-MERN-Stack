@@ -1,23 +1,15 @@
 import React from 'react';
 import Selectitems from '../Select';
-import '../../css/index.css';
-import Grid from '@material-ui/core/Grid';
-import useStyles from '../../styles/render';
+import { Container, Toolbar } from '@material-ui/core';
+import useStyles from '../../styles/renderNav';
 
-const ProductsNav = ({ pageSize1, setSize1, items1 }) => {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
+const ProductsNav = ({ pageSize, setPageSize, items }) => {
   const classes = useStyles();
   return (
     <div>
-      <Grid
-        container
-        direction='row'
-        alignItems='center'
-        spacing={5}
-        className={classes.contHeight2}
-      >
-        <Grid item xs={12} sm={6} className={classes.gridNav}>
-          <div className={classes.contLeftPadding}>
+      <Container>
+        <Toolbar className={classes.root}>
+          <div>
             <ul className={classes.ulStyle}>
               <li className={classes.liStyle}>categories</li>
               <li className={classes.liStyle}>price</li>
@@ -25,17 +17,15 @@ const ProductsNav = ({ pageSize1, setSize1, items1 }) => {
               <li className={classes.liStyle}>size</li>
             </ul>
           </div>
-        </Grid>
-        <Grid item xs={12} sm={6} className={classes.gridResult}>
-          <div
-            className={`${classes.result} ${classes.elementDisplay} ${classes.contRightPadding}`}
-          >
-            <p className={classes.gridSelect}>showing </p>
-            <Selectitems pageSize={pageSize1} setPageSize={setSize1} />
-            <p className={classes.itemResult}>items of {items1} results</p>
+          <div className={`${classes.elementDisplay}`}>
+            <div className={classes.navResult}>
+              <p>showing</p>
+              <Selectitems pageSize={pageSize} setPageSize={setPageSize} />
+              <p>items of {items} results</p>
+            </div>
           </div>
-        </Grid>
-      </Grid>
+        </Toolbar>
+      </Container>
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import useStyles from '../../styles/render';
 import ProductCard from './ProductCard';
+import ProductsNav from './ProductNav';
 import PaginationComponent from './../Pagination';
-import Selectitems from './../Select';
 // Material UI Components
 import { Container, Divider, Grid } from '@material-ui/core';
 
@@ -39,39 +39,10 @@ const RenderProducts = ({ keyword }) => {
   return (
     <main>
       <Container>
-        <Grid
-          container
-          direction='row'
-          justify='space-between'
-          alignItems='center'
-          spacing={5}
-          className={classes.contHeight2}
-        >
-          <Grid item xs={12} sm={6} className={classes.gridNav}>
-            <div className={classes.contLeftPadding}>
-              <ul className={classes.ulStyle}>
-                <li className={classes.liStyle}>categories</li>
-                <li className={classes.liStyle}>price</li>
-                <li className={classes.liStyle}>color</li>
-                <li className={classes.liStyle}>size</li>
-              </ul>
-            </div>
-          </Grid>
-          <Grid item xs={12} sm={6} className={classes.gridResult}>
-            <div
-              className={`${classes.result} ${classes.elementDisplay} ${classes.contRightPadding}`}
-            >
-              <p className={classes.gridSelect}>showing </p>
-              <Selectitems pageSize={pageSize} setPageSize={setSize} />
-              <p className={classes.itemResult}>items of {items} results</p>
-            </div>
-          </Grid>
-        </Grid>
-
+        <ProductsNav pageSize={pageSize} setPageSize={setSize} items={items} />
         {/* --------------------------------------- */}
         <Divider variant='middle' />
         {/* --------------------------------------- */}
-
         <Grid container justify='center' className={classes.cardGrid}>
           {/* grid item1 */}
           <Grid item xs={12}>
@@ -85,8 +56,7 @@ const RenderProducts = ({ keyword }) => {
               </Grid>
             </Container>
           </Grid>
-
-          {/* grid item3 */}
+          {/* grid item2*/}
           <Grid item xs={12} className={classes.paginationStyle}>
             <PaginationComponent
               page={page}
