@@ -11,11 +11,11 @@ const Theme2 = createMuiTheme({
       dark: '#3f5662',
     },
     secondary: {
-      main: '#B8CED9',
+      main: '#9fc1d1',
     },
     tertiary: {
-      main: '#c1ae9f',
-      dark: '#978d80',
+      main: '#b60427',
+      dark: '#87796f',
     },
     text: {
       primary: '#434343',

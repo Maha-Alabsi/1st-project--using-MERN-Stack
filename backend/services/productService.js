@@ -4,11 +4,13 @@ import logger from './../utils/logger.js';
 const getProducts = async (page, pageSize, keyword) => {
   try {
     const skip = (page - 1) * pageSize;
-    const totalitems = await Product.countDocuments();
+    // count the documents matched the searched key
+    const totalitems = await Product.find(keyword).countDocuments();
     // How many pages our pagination to have
     const totalpages = Math.ceil(totalitems / pageSize);
 
     const products = await Product.find(keyword).skip(skip).limit(pageSize);
+
     const returnedobj = {
       totalpages: totalpages,
       products: products,

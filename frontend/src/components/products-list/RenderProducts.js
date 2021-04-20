@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import useStyles from '../../styles/render';
 import ProductCard from './ProductCard';
-import ProductsNav from './ProductNav';
+import ProductsNav from './ProductsNav';
 import PaginationComponent from './../Pagination';
 // Material UI Components
 import { Container, Divider, Grid } from '@material-ui/core';

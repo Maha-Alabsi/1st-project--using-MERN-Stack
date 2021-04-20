@@ -9,6 +9,7 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.down('sm')]: {
       justifyContent: 'center',
       paddingRight: '60px',
+      fontSize:'17px'
     },
   },
 
