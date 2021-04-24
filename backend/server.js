@@ -1,4 +1,5 @@
 import express from 'express';
+// import { errors } from 'celebrate';
 import cors from 'cors';
 import colors from 'colors';
 import index from './api/products/index.js';
@@ -26,11 +27,14 @@ app.get('/', (req, res) => {
   res.send('Api is running.....');
 });
 
+// app.use(errors())
 app.use('/api/products', index);
 
 process.on('uncaughtException', error => {
   logger.error('The exception was caught');
 });
+
+
 
 // Error Handling
 

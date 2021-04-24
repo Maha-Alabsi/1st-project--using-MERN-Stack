@@ -1,7 +1,7 @@
 import Product from '../models/productModel.js';
 import logger from './../utils/logger.js';
 
-const getProducts = async (page, pageSize, keyword) => {
+const productsService = async (page, pageSize, keyword) => {
   try {
     const skip = (page - 1) * pageSize;
     // count the documents matched the searched key
@@ -23,4 +23,4 @@ const getProducts = async (page, pageSize, keyword) => {
   }
 };
 
-export default getProducts;
+export default productsService;

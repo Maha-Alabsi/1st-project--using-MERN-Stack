@@ -1,15 +1,16 @@
 import express from 'express';
-import productsController from './controllers/productsController.js';
-import singleProduct from './controllers/singleProduct.js';
+import getProduct from './getProduct.js';
+import getProducts from './getProducts.js';
+import validations from './validations.js';
 
 const router = express.Router();
 
 // Fetch all products
 // Get /api/products
-router.get('/', productsController);
+router.get('/', validations.getProducts, getProducts);
 
 // Fetch single product by id
 // Get /api/product/:id
-router.get('/:id', singleProduct);
+router.get('/:id', validations.getProduct, getProduct);
 
 export default router;

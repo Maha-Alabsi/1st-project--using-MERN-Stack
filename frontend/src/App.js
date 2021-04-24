@@ -8,9 +8,7 @@ import getTheme from './getTheme';
 import { ThemeProvider } from '@material-ui/core';
 
 const App = () => {
-  console.log(localStorage);
   const currentThemeName = localStorage.getItem('appTheme' || Themes.Theme1);
-  console.log(currentThemeName);
   const [themeName, setThemeName] = useState(currentThemeName);
   localStorage.setItem('appTheme', themeName);
 
