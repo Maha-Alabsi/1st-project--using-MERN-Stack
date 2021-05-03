@@ -4,7 +4,7 @@ import Header from './components/Header';
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import Themes from './constants/theme';
-import getTheme from './getTheme';
+import getTheme from './utils/getTheme';
 import { ThemeProvider } from '@material-ui/core';
 
 const App = () => {

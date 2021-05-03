@@ -16,6 +16,7 @@
   },
   "rules": {
     "no-unused-vars": "off",
+    "no-undef": "off",
     "radix": "off",
     "no-console": "off",
     "func-names": "off",
@@ -29,6 +30,9 @@
     "class-methods-use-this": "off",
     "import/extensions": "off",
     "consistent-return": ["off", { "treatUndefinedAsUnspecified": false }],
-    "import/no-unresolved": "off"
+    "import/no-unresolved": "off",
+    "node/no-extraneous-import": "off",
+    "import/no-extraneous-dependencies":"off",
+    "no-underscore-dangle":"off"
   }
 }

@@ -1,5 +1,5 @@
-import { Theme1, Theme2, Theme3 } from './themes/index';
-import Themes from './constants/theme';
+import { Theme1, Theme2, Theme3 } from '../themes/index';
+import Themes from '../constants/theme';
 
 const getTheme = themeName => {
   switch (themeName) {

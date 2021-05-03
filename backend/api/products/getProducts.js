@@ -3,6 +3,8 @@ import productsService from '../../services/productService.js';
 
 const getProducts = async (req, res) => {
   try {
+        console.log("start fetching products...")
+
     const keyword = req.query.keyword
       ? {
           name: {

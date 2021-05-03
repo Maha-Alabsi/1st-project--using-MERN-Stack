@@ -34,8 +34,6 @@ process.on('uncaughtException', error => {
   logger.error('The exception was caught');
 });
 
-
-
 // Error Handling
 
 // app.use((error,req,res,next)=>{

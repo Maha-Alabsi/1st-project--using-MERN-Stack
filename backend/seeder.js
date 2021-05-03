@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import colors from 'colors';
 import products from './data/products.js';
-import Product from './models/productModel.js';
+import ProductModel from './models/productModel.js';
 import connectDB from './config/db.js';
 import logger from './utils/logger.js';
 // ImportSample of data into the model database
@@ -11,8 +11,8 @@ dotenv.config();
 
 const importData = async () => {
   try {
-    await Product.deleteMany();
-    await Product.insertMany(products);
+    await ProductModel.deleteMany();
+    await ProductModel.insertMany(products);
     logger.info('Data Imporeted'.green.inverse);
     process.exit();
   } catch (error) {
