@@ -14,7 +14,6 @@ connectDB();
 
 const PORT = config.port || 5000;
 const NODE_ENV = config.env;
-
 function listening() {
   logger.info(
     `Server is running in ${NODE_ENV} mode/ port ${PORT}`.yellow.bold
@@ -34,13 +33,4 @@ process.on('uncaughtException', error => {
   logger.error('The exception was caught');
 });
 
-// Error Handling
 
-// app.use((error,req,res,next)=>{
-//   res.status(error.status || 500);
-//   res.json({
-//     error: {
-//       message: `Error: ${error.message.red.inverse}`
-//     }
-//   })
-// });

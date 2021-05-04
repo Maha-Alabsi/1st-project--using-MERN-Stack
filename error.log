@@ -83,3 +83,7 @@
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-19T08:41:14.874Z"}
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: #<Object> is not a function\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-19T08:42:06.372Z"}
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: Cannot read property 'totalitems' of undefined\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2021-04-19T08:42:06.373Z"}
+{"message":"The exception was caught","level":"error","timestamp":"2021-05-04T12:00:03.961Z"}
+{"message":"The exception was caught","level":"error","timestamp":"2021-05-04T12:00:41.782Z"}
+{"message":"The exception was caught","level":"error","timestamp":"2021-05-04T12:01:46.842Z"}
+{"message":"The exception was caught","level":"error","timestamp":"2021-05-04T12:02:01.779Z"}

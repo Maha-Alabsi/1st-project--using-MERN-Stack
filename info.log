@@ -7073,3 +7073,28 @@
 {"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-05-02T23:34:23.585Z"}
 {"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-05-02T23:35:01.134Z"}
 {"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-05-02T23:35:02.584Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-05-04T11:30:06.495Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-05-04T11:30:08.312Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-05-04T11:30:26.880Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-05-04T11:30:28.344Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-05-04T11:30:45.149Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-05-04T11:30:46.745Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-05-04T11:30:56.348Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-05-04T11:30:57.781Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-05-04T11:30:59.616Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-05-04T11:31:01.354Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-05-04T11:31:02.863Z"}
+{"message":"The exception was caught","level":"error","timestamp":"2021-05-04T12:00:03.961Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-05-04T12:00:06.667Z"}
+{"message":"The exception was caught","level":"error","timestamp":"2021-05-04T12:00:41.782Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-05-04T12:00:43.243Z"}
+{"message":"The exception was caught","level":"error","timestamp":"2021-05-04T12:01:46.842Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-05-04T12:01:48.469Z"}
+{"message":"The exception was caught","level":"error","timestamp":"2021-05-04T12:02:01.778Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-05-04T12:02:03.225Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-05-04T12:02:40.719Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-05-04T12:02:42.211Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-05-04T12:02:49.482Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-05-04T12:02:51.192Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-05-04T12:03:21.472Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-05-04T12:03:22.881Z"}
