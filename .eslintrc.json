@@ -33,6 +33,7 @@
     "import/no-unresolved": "off",
     "node/no-extraneous-import": "off",
     "import/no-extraneous-dependencies":"off",
-    "no-underscore-dangle":"off"
+    "no-underscore-dangle":"off",
+    "node/no-unpublished-import":"off"
   }
 }

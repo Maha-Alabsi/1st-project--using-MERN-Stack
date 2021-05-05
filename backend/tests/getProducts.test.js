@@ -1,4 +1,5 @@
 import 'regenerator-runtime/runtime.js';
+import request from 'supertest';
 import getProducts from '../api/products/getProduct.js';
 
 test('check the getProducts()', async () => {

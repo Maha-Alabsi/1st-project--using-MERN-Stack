@@ -46,8 +46,8 @@ describe('insert documents', () => {
       });
 
       const insertedProduct = await products.findOne({ _id: mockProduct._id });
-
       expect(insertedProduct).toEqual(mockProduct);
+
     } catch (error) {
       console.log(error.message);
     }

@@ -27,8 +27,8 @@ const getProducts = async (req, res) => {
       products: returnedData.products,
     });
   } catch (error) {
-    res.status(error.status || 404);
-    logger.error(`Error: ${error.message}`.red.underline.bold);
+    // res.status(error.status || 404);
+    logger.error(`Error: ${error.message}`);
   }
 };
 

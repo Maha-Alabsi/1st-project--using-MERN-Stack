@@ -1,6 +1,6 @@
 import 'regenerator-runtime/runtime.js';
 import importData from '../seeder.js';
-jest.useFakeTimers();
+// jest.useFakeTimers();
 
 test('check the importData()', async () => {
     try{
