@@ -3,6 +3,7 @@ import useStyles from '../../styles/render';
 import ProductCard from './ProductCard';
 import ProductsNav from './ProductsNav';
 import PaginationComponent from './../Pagination';
+import fetchFunction from '../../services/fetchProduct';
 // Material UI Components
 import { Container, Divider, Grid } from '@material-ui/core';
 
@@ -17,15 +18,21 @@ const RenderProducts = ({ keyword }) => {
   useEffect(() => {
     const fetchProducts = async function () {
       try {
-        const res = await fetch(
-          `/api/products?keyword=${keyword}&page=${page}&limit=${pageSize}`
-        );
-        const data = await res.json();
-        setProducts(data.products);
-        setPages(data.totalpages);
-        setSize(data.pageSize);
-        setItems(data.totalitems);
-        return data;
+        // const res = await fetch(
+        //   `/api/products?keyword=${keyword}&page=${page}&limit=${pageSize}`
+        // );
+        // const data = await res.json();
+        // setProducts(data.products);
+        // setPages(data.totalpages);
+        // setSize(data.pageSize);
+        // setItems(data.totalitems);
+        // return data;
+        const fetchData = await fetchFunction(keyword, page, pageSize);
+        setProducts(fetchData.products);
+        setPages(fetchData.totalpages);
+        setSize(fetchData.pageSize);
+        setItems(fetchData.totalitems);
+        return fetchData;
       } catch (error) {
         if (error.cod !== 200) {
           console.log('Error in Fetching', error);

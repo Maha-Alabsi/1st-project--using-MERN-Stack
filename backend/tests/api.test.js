@@ -9,7 +9,7 @@ describe("Test the api root path", () => {
     })
   });
 
-  test("/ route", () => {
+  test("/:id route", () => {
     request(router).get('/:id').then(response=>{
       expect(response.statusCode).toBe(200);
     })
