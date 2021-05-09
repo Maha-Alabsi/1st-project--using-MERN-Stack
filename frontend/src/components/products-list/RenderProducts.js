@@ -3,7 +3,7 @@ import useStyles from '../../styles/render';
 import ProductCard from './ProductCard';
 import ProductsNav from './ProductsNav';
 import PaginationComponent from './../Pagination';
-import fetchFunction from '../../services/fetchProduct';
+import fetchProducts from '../../utils/fetchProducts';
 // Material UI Components
 import { Container, Divider, Grid } from '@material-ui/core';
 
@@ -16,18 +16,9 @@ const RenderProducts = ({ keyword }) => {
   const [pageSize, setSize] = useState(8);
 
   useEffect(() => {
-    const fetchProducts = async function () {
+    const fetchFunction = async function () {
       try {
-        // const res = await fetch(
-        //   `/api/products?keyword=${keyword}&page=${page}&limit=${pageSize}`
-        // );
-        // const data = await res.json();
-        // setProducts(data.products);
-        // setPages(data.totalpages);
-        // setSize(data.pageSize);
-        // setItems(data.totalitems);
-        // return data;
-        const fetchData = await fetchFunction(keyword, page, pageSize);
+        const fetchData = await fetchProducts(keyword, page, pageSize);
         setProducts(fetchData.products);
         setPages(fetchData.totalpages);
         setSize(fetchData.pageSize);
@@ -39,7 +30,7 @@ const RenderProducts = ({ keyword }) => {
         }
       }
     };
-    fetchProducts();
+    fetchFunction();
   }, [keyword, page, pageSize]);
 
   const classes = useStyles();
