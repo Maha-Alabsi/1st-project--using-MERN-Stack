@@ -14,7 +14,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder",
     "lint": "eslint .",
-    "test": "jest --coverage --watchAll"
+    "test": "jest --coverage --watchAll "
   },
   "jest": {
     "testEnvironment": "node",

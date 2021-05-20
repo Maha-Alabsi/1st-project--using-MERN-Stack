@@ -1,7 +1,7 @@
 import ProductModel from '../models/productModel.js';
-import logger from './../utils/logger.js';
+import logger from '../utils/logger.js';
 
-const productsService = async (page, pageSize, keyword) => {
+const getProductsService = async (page, pageSize, keyword) => {
   try {
     console.log('product servicr api......')
     const skip = (page - 1) * pageSize;
@@ -9,19 +9,17 @@ const productsService = async (page, pageSize, keyword) => {
     const totalitems = await ProductModel.find(keyword).countDocuments();
     // How many pages our pagination to have
     const totalpages = Math.ceil(totalitems / pageSize);
-
     const products = await ProductModel.find(keyword).skip(skip).limit(pageSize);
-    console.log(products)
+    // console.log(products)
     const returnedobj = {
       totalpages: totalpages,
       products: products,
       totalitems: totalitems,
     };
-
     return returnedobj;
   } catch (error) {
-    logger.error(`Error: ${error.message}`.red.underline.bold);
+    logger.error(`Error: ${error.message}`);
   }
 };
 
-export default productsService;
+export default getProductsService;

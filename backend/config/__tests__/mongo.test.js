@@ -1,10 +1,8 @@
 import 'regenerator-runtime/runtime.js';
 import { MongoClient } from 'mongodb';
-// import { bson } from 'bson';
-// import request from "supertest";
-import config from '../config/index.js';
+import config from '../index.js';
 const dbURI = config.mongoURI;
-// jest.useFakeTimers();
+const dbname = config.mongoName;
 
 describe('insert documents', () => {
   let connection;
@@ -15,14 +13,14 @@ describe('insert documents', () => {
       useNewUrlParser: true,
       useUnifiedTopology: true
     });
-    db = connection.db();
+    db = connection.db(dbname);
   });
 
   afterAll(async () => {
     await connection.close();
   });
 
-  it('should insert a doc into collection', async () => {
+  test('should insert a doc into collection', async () => {
     try {
       const products = db.collection('products');
       const mockProduct = {

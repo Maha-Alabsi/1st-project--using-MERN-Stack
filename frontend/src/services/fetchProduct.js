@@ -9,6 +9,5 @@ const fetchProduct = async ({props}) => {
       }
     }
   };
-
   export default fetchProduct;
 

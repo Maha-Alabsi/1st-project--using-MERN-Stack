@@ -3,7 +3,7 @@ import useStyles from '../../styles/render';
 import ProductCard from './ProductCard';
 import ProductsNav from './ProductsNav';
 import PaginationComponent from './../Pagination';
-import fetchProducts from '../../utils/fetchProducts';
+import fetchProducts from '../../services/fetchProducts';
 // Material UI Components
 import { Container, Divider, Grid } from '@material-ui/core';
 

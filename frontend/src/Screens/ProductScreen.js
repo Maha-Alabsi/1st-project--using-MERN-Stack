@@ -20,7 +20,7 @@ import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 import ZoomInIcon from '@material-ui/icons/ZoomIn';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import AddIcon from '@material-ui/icons/Add';
-import fetchProduct from './../utils/fetchProduct'
+import fetchProduct from './../services/fetchProduct';
 
 const ProductScreen = props => {
   const classes = useStyles();
@@ -30,9 +30,7 @@ const ProductScreen = props => {
   useEffect(() => {
     const fetchFunction = async () => {
       try {
-        const fetchData=await fetchProduct({props:props.match.params.id})
-        // const res = await fetch(`/api/products/${props.match.params.id}`);
-        // const data = await res.json();
+        const fetchData = await fetchProduct({ props: props.match.params.id });
         setProduct(fetchData);
         return fetchData;
       } catch (error) {

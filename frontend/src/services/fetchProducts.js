@@ -1,4 +1,5 @@
 const fetchProducts = async (keyword, page, pageSize) => {
+  console.log('fetchProducts is called')
   const res = await fetch(
     `/api/products?keyword=${keyword}&page=${page}&limit=${pageSize}`
   );
@@ -7,5 +8,3 @@ const fetchProducts = async (keyword, page, pageSize) => {
 };
 
 export default fetchProducts;
-
-// http://localhost:5000
