@@ -4,8 +4,8 @@ import request from 'supertest';
 import mongoose from 'mongoose';
 import connectDB from '../../../config/db.js';
 connectDB();
-const app = express();
-// const router = express.Router();
+// const app = express();
+const router = express.Router();
 
 const mockProduct = {
   _id: '6076ec2ebc2d7b4d505449b5',
@@ -23,17 +23,12 @@ const mockProduct = {
   updatedAt: '2021-04-14T13:20:46.189Z',
 };
 
-let server;
-beforeAll(() => {
-  server = app.listen(3001);
-});
-afterAll(done => {
+afterAll(() => {
   mongoose.connection.close();
-  server.close(done);
 });
 // Routes tests
 test('Test the api root path /', () => {
-  request(server)
+  request(router)
     .get('/')
     .expect('Content-Type', /json/)
     .then(response => {
@@ -42,7 +37,7 @@ test('Test the api root path /', () => {
 });
 
 test('Test the api root path /:id route', () => {
-  request(server)
+  request(router)
     .get('/:id')
     .then(response => {
       expect(response.statusCode).toBe(200);
@@ -50,7 +45,7 @@ test('Test the api root path /:id route', () => {
 });
 
 test('Test the api root path / with keyword&page num & page size', () => {
-  request(server)
+  request(router)
     .get('/?keyword=table&page=1&limit=5')
     .then(response => {
       expect(response.statusCode).toBe(200);
@@ -59,7 +54,7 @@ test('Test the api root path / with keyword&page num & page size', () => {
 });
 
 test('existing data by id ', () => {
-  request(server)
+  request(router)
     .get('/6076ec2ebc2d7b4d505449b5')
     .then(response => {
       expect(response.statusCode).toBe(200);
@@ -68,7 +63,7 @@ test('existing data by id ', () => {
 });
 
 test('existing data by id ', () => {
-  request(server)
+  request(router)
     .get('/fail')
     .then(response => {
       expect(response.statusCode).toBe(404);
