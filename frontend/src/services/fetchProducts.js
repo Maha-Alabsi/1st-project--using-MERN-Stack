@@ -4,6 +4,7 @@ const fetchProducts = async (keyword, page, pageSize) => {
     `/api/products?keyword=${keyword}&page=${page}&limit=${pageSize}`
   );
   const data = await res.json();
+  console.log(data)
   return data;
 };
 

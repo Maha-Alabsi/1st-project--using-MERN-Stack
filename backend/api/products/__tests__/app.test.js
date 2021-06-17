@@ -1,6 +1,6 @@
-import 'regenerator-runtime/runtime.js';
 import request from 'supertest';
-import app from '../server.js';
+import app from '../../../app.js'
+jest.useFakeTimers()
 
 describe('Test the root path', () => {
   test('It should response the GET method', async () => {
@@ -8,3 +8,4 @@ describe('Test the root path', () => {
     expect(response.statusCode).toBe(200);
   });
 });
+

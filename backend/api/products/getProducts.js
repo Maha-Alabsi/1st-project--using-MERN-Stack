@@ -8,7 +8,7 @@ const getProducts = async (req, res) => {
       ? {
           name: {
             $regex: req.query.keyword,
-            $options: 'i',
+            $options: 'i', 
           },
         }
       : {};

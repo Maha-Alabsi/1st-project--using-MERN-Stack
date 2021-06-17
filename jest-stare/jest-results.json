@@ -1,0 +1,1306 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 5,
+  "numPassedTests": 9,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 1,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 6,
+  "numTotalTests": 9,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1623956749094,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1623956755913,
+        "runtime": 6517,
+        "slow": true,
+        "start": 1623956749396
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\models\\__tests__\\productModel.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Product Model"
+          ],
+          "duration": 173,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Product Model has the mentioned attributes attributes",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "has the mentioned attributes attributes"
+        },
+        {
+          "ancestorTitles": [
+            "Product Model"
+          ],
+          "duration": 249,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Product Model check if the productModel is defined",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "check if the productModel is defined"
+        },
+        {
+          "ancestorTitles": [
+            "Product Model"
+          ],
+          "duration": 578,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Product Model get a product",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "get a product"
+        },
+        {
+          "ancestorTitles": [
+            "Product Model"
+          ],
+          "duration": 371,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Product Model save a product",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "save a product"
+        },
+        {
+          "ancestorTitles": [
+            "Product Model"
+          ],
+          "duration": 488,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Product Model update a product",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "update a product"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1623956757208,
+        "runtime": 1127,
+        "slow": false,
+        "start": 1623956756081
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\app.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Test the root path"
+          ],
+          "duration": 94,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Test the root path It should response the GET method",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "It should response the GET method"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1623956758144,
+        "runtime": 802,
+        "slow": false,
+        "start": 1623956757342
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\productService.getPro.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "getProduct Controller"
+          ],
+          "duration": 49,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "getProduct Controller Should pass param id",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Should pass param id"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1623956758834,
+        "runtime": 550,
+        "slow": false,
+        "start": 1623956758284
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\getProduct.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "getProduct Controller"
+          ],
+          "duration": 7,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "getProduct Controller Should pass param id",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Should pass param id"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1623956759491,
+        "runtime": 522,
+        "slow": false,
+        "start": 1623956758969
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\getProducts.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "getProducts Controller"
+          ],
+          "duration": 8,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "getProducts Controller Should pass if the all query string items found",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Should pass if the all query string items found"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    \u001b[1m\u001b[31mJest encountered an unexpected token\u001b[39m\u001b[22m\n\n    Jest failed to parse a file. This happens e.g. when your code or its dependencies use non-standard JavaScript syntax, or when Jest is not configured to support such syntax.\n\n    Out of the box Jest supports Babel, which will be used to transform your files into valid JS based on your Babel configuration.\n\n    By default \"node_modules\" folder is ignored by transformers.\n\n    Here's what you can do:\n     • If you are trying to use ECMAScript Modules, see \u001b[4mhttps://jestjs.io/docs/ecmascript-modules\u001b[24m for how to enable it.\n     • To have some of your \"node_modules\" files transformed, you can specify a custom \u001b[1m\"transformIgnorePatterns\"\u001b[22m in your config.\n     • If you need a custom transformation specify a \u001b[1m\"transform\"\u001b[22m option in your config.\n     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the \u001b[1m\"moduleNameMapper\"\u001b[22m config option.\n\n    You'll find more details and examples of these config options in the docs:\n    \u001b[36mhttps://jestjs.io/docs/configuration\u001b[39m\n    For information about custom transformations, see:\n    \u001b[36mhttps://jestjs.io/docs/code-transformation\u001b[39m\n\n    \u001b[1m\u001b[31mDetails:\u001b[39m\u001b[22m\n\n    C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\frontend\\src\\services\\__tests__\\fetchProducts.test.js:1\n    ({\"Object.<anonymous>\":function(module,exports,require,__dirname,__filename,jest){import { assert } from 'assert';\n                                                                                      ^^^^^^\n\n    SyntaxError: Cannot use import statement outside a module\n\n      \u001b[2mat Runtime.createScriptFromCode (\u001b[22mnode_modules/jest-runtime/build/index.js\u001b[2m:1479:14)\u001b[22m\n      \u001b[2mat TestScheduler.scheduleTests (\u001b[22mnode_modules/@jest/core/build/TestScheduler.js\u001b[2m:333:13)\u001b[22m\n",
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 0,
+        "runtime": 0,
+        "slow": false,
+        "start": 0
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testExecError": {},
+      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\frontend\\src\\services\\__tests__\\fetchProducts.test.js",
+      "testResults": []
+    }
+  ],
+  "wasInterrupted": false,
+  "coverageMap": {
+    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\models\\productModel.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\models\\productModel.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 3,
+            "column": 19
+          },
+          "end": {
+            "line": 37,
+            "column": 1
+          }
+        },
+        "1": {
+          "start": {
+            "line": 39,
+            "column": 21
+          },
+          "end": {
+            "line": 39,
+            "column": 58
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 5,
+        "1": 5
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "62058d4b94e866effc478050dc4403f2e8aee177"
+    },
+    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\utils\\logger.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\utils\\logger.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 2,
+            "column": 19
+          },
+          "end": {
+            "line": 2,
+            "column": 26
+          }
+        },
+        "1": {
+          "start": {
+            "line": 4,
+            "column": 15
+          },
+          "end": {
+            "line": 25,
+            "column": 2
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 6,
+        "1": 6
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "a5d30d1d39eb7a4589ef31b81d6475fe3fc6f189"
+    },
+    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\config\\index.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\config\\index.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "line": 2,
+            "column": 16
+          }
+        },
+        "1": {
+          "start": {
+            "line": 4,
+            "column": 15
+          },
+          "end": {
+            "line": 9,
+            "column": 1
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "99c6b2682630e3b110595334f7bc2362d0be5bc3"
+    },
+    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\config\\db.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\config\\db.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 5,
+            "column": 11
+          },
+          "end": {
+            "line": 5,
+            "column": 26
+          }
+        },
+        "1": {
+          "start": {
+            "line": 7,
+            "column": 18
+          },
+          "end": {
+            "line": 18,
+            "column": 1
+          }
+        },
+        "2": {
+          "start": {
+            "line": 8,
+            "column": 2
+          },
+          "end": {
+            "line": 17,
+            "column": 3
+          }
+        },
+        "3": {
+          "start": {
+            "line": 9,
+            "column": 17
+          },
+          "end": {
+            "line": 13,
+            "column": 6
+          }
+        },
+        "4": {
+          "start": {
+            "line": 14,
+            "column": 4
+          },
+          "end": {
+            "line": 14,
+            "column": 77
+          }
+        },
+        "5": {
+          "start": {
+            "line": 16,
+            "column": 4
+          },
+          "end": {
+            "line": 16,
+            "column": 63
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": {
+            "start": {
+              "line": 7,
+              "column": 18
+            },
+            "end": {
+              "line": 7,
+              "column": 19
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 30
+            },
+            "end": {
+              "line": 18,
+              "column": 1
+            }
+          },
+          "line": 7
+        }
+      },
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 0
+      },
+      "f": {
+        "0": 1
+      },
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "b81c8871e5843e43d1e0620bb895b98dbeb2439f"
+    },
+    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProduct.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProduct.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 4,
+            "column": 19
+          },
+          "end": {
+            "line": 13,
+            "column": 1
+          }
+        },
+        "1": {
+          "start": {
+            "line": 5,
+            "column": 2
+          },
+          "end": {
+            "line": 12,
+            "column": 3
+          }
+        },
+        "2": {
+          "start": {
+            "line": 6,
+            "column": 4
+          },
+          "end": {
+            "line": 6,
+            "column": 39
+          }
+        },
+        "3": {
+          "start": {
+            "line": 7,
+            "column": 20
+          },
+          "end": {
+            "line": 7,
+            "column": 62
+          }
+        },
+        "4": {
+          "start": {
+            "line": 8,
+            "column": 4
+          },
+          "end": {
+            "line": 8,
+            "column": 34
+          }
+        },
+        "5": {
+          "start": {
+            "line": 9,
+            "column": 4
+          },
+          "end": {
+            "line": 9,
+            "column": 19
+          }
+        },
+        "6": {
+          "start": {
+            "line": 11,
+            "column": 4
+          },
+          "end": {
+            "line": 11,
+            "column": 44
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": {
+            "start": {
+              "line": 4,
+              "column": 19
+            },
+            "end": {
+              "line": 4,
+              "column": 20
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 39
+            },
+            "end": {
+              "line": 13,
+              "column": 1
+            }
+          },
+          "line": 4
+        }
+      },
+      "branchMap": {},
+      "s": {
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 0
+      },
+      "f": {
+        "0": 1
+      },
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "60fff2efac2b24d4ccf19c7ef6cf0e881f8b6e87"
+    },
+    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\services\\productService.getProducts.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\services\\productService.getProducts.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 23,
+            "column": 1
+          }
+        },
+        "1": {
+          "start": {
+            "line": 5,
+            "column": 2
+          },
+          "end": {
+            "line": 22,
+            "column": 3
+          }
+        },
+        "2": {
+          "start": {
+            "line": 6,
+            "column": 4
+          },
+          "end": {
+            "line": 6,
+            "column": 44
+          }
+        },
+        "3": {
+          "start": {
+            "line": 7,
+            "column": 17
+          },
+          "end": {
+            "line": 7,
+            "column": 38
+          }
+        },
+        "4": {
+          "start": {
+            "line": 9,
+            "column": 23
+          },
+          "end": {
+            "line": 9,
+            "column": 72
+          }
+        },
+        "5": {
+          "start": {
+            "line": 11,
+            "column": 23
+          },
+          "end": {
+            "line": 11,
+            "column": 55
+          }
+        },
+        "6": {
+          "start": {
+            "line": 12,
+            "column": 21
+          },
+          "end": {
+            "line": 12,
+            "column": 80
+          }
+        },
+        "7": {
+          "start": {
+            "line": 14,
+            "column": 24
+          },
+          "end": {
+            "line": 18,
+            "column": 5
+          }
+        },
+        "8": {
+          "start": {
+            "line": 19,
+            "column": 4
+          },
+          "end": {
+            "line": 19,
+            "column": 23
+          }
+        },
+        "9": {
+          "start": {
+            "line": 21,
+            "column": 4
+          },
+          "end": {
+            "line": 21,
+            "column": 44
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": {
+            "start": {
+              "line": 4,
+              "column": 27
+            },
+            "end": {
+              "line": 4,
+              "column": 28
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 62
+            },
+            "end": {
+              "line": 23,
+              "column": 1
+            }
+          },
+          "line": 4
+        }
+      },
+      "branchMap": {},
+      "s": {
+        "0": 3,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 0
+      },
+      "f": {
+        "0": 1
+      },
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "83f0441d897cfb3b3c2b5fcacb4892aa26e642da"
+    },
+    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProducts.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProducts.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 4,
+            "column": 20
+          },
+          "end": {
+            "line": 32,
+            "column": 1
+          }
+        },
+        "1": {
+          "start": {
+            "line": 5,
+            "column": 2
+          },
+          "end": {
+            "line": 31,
+            "column": 3
+          }
+        },
+        "2": {
+          "start": {
+            "line": 6,
+            "column": 4
+          },
+          "end": {
+            "line": 6,
+            "column": 46
+          }
+        },
+        "3": {
+          "start": {
+            "line": 7,
+            "column": 20
+          },
+          "end": {
+            "line": 14,
+            "column": 10
+          }
+        },
+        "4": {
+          "start": {
+            "line": 15,
+            "column": 17
+          },
+          "end": {
+            "line": 15,
+            "column": 46
+          }
+        },
+        "5": {
+          "start": {
+            "line": 16,
+            "column": 21
+          },
+          "end": {
+            "line": 16,
+            "column": 51
+          }
+        },
+        "6": {
+          "start": {
+            "line": 17,
+            "column": 25
+          },
+          "end": {
+            "line": 19,
+            "column": 6
+          }
+        },
+        "7": {
+          "start": {
+            "line": 21,
+            "column": 4
+          },
+          "end": {
+            "line": 28,
+            "column": 7
+          }
+        },
+        "8": {
+          "start": {
+            "line": 30,
+            "column": 4
+          },
+          "end": {
+            "line": 30,
+            "column": 44
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": {
+            "start": {
+              "line": 4,
+              "column": 20
+            },
+            "end": {
+              "line": 4,
+              "column": 21
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 40
+            },
+            "end": {
+              "line": 32,
+              "column": 1
+            }
+          },
+          "line": 4
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 20
+            },
+            "end": {
+              "line": 14,
+              "column": 10
+            }
+          },
+          "type": "cond-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 8,
+                "column": 8
+              },
+              "end": {
+                "line": 13,
+                "column": 9
+              }
+            },
+            {
+              "start": {
+                "line": 14,
+                "column": 8
+              },
+              "end": {
+                "line": 14,
+                "column": 10
+              }
+            }
+          ],
+          "line": 7
+        },
+        "1": {
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 26
+            },
+            "end": {
+              "line": 15,
+              "column": 45
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 15,
+                "column": 26
+              },
+              "end": {
+                "line": 15,
+                "column": 40
+              }
+            },
+            {
+              "start": {
+                "line": 15,
+                "column": 44
+              },
+              "end": {
+                "line": 15,
+                "column": 45
+              }
+            }
+          ],
+          "line": 15
+        },
+        "2": {
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 30
+            },
+            "end": {
+              "line": 16,
+              "column": 50
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 16,
+                "column": 30
+              },
+              "end": {
+                "line": 16,
+                "column": 45
+              }
+            },
+            {
+              "start": {
+                "line": 16,
+                "column": 49
+              },
+              "end": {
+                "line": 16,
+                "column": 50
+              }
+            }
+          ],
+          "line": 16
+        }
+      },
+      "s": {
+        "0": 2,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 0
+      },
+      "f": {
+        "0": 1
+      },
+      "b": {
+        "0": [
+          1,
+          0
+        ],
+        "1": [
+          1,
+          0
+        ],
+        "2": [
+          1,
+          0
+        ]
+      },
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "49b1eb0809d7a3fb2fb3bb6b35a98122c3732673"
+    },
+    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\validations.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\validations.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 4,
+            "column": 22
+          },
+          "end": {
+            "line": 4,
+            "column": 38
+          }
+        },
+        "1": {
+          "start": {
+            "line": 6,
+            "column": 20
+          },
+          "end": {
+            "line": 19,
+            "column": 1
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "5c3cda212c84d12abb16d42d203c06b376691e69"
+    },
+    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\app.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\app.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 10,
+            "column": 12
+          },
+          "end": {
+            "line": 10,
+            "column": 21
+          }
+        },
+        "1": {
+          "start": {
+            "line": 11,
+            "column": 0
+          },
+          "end": {
+            "line": 11,
+            "column": 16
+          }
+        },
+        "2": {
+          "start": {
+            "line": 14,
+            "column": 0
+          },
+          "end": {
+            "line": 16,
+            "column": 5
+          }
+        },
+        "3": {
+          "start": {
+            "line": 15,
+            "column": 4
+          },
+          "end": {
+            "line": 15,
+            "column": 36
+          }
+        },
+        "4": {
+          "start": {
+            "line": 25,
+            "column": 2
+          },
+          "end": {
+            "line": 25,
+            "column": 65
+          }
+        },
+        "5": {
+          "start": {
+            "line": 32,
+            "column": 0
+          },
+          "end": {
+            "line": 32,
+            "column": 65
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": {
+            "start": {
+              "line": 14,
+              "column": 13
+            },
+            "end": {
+              "line": 14,
+              "column": 14
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 27
+            },
+            "end": {
+              "line": 16,
+              "column": 3
+            }
+          },
+          "line": 14
+        }
+      },
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "f": {
+        "0": 1
+      },
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "54815c4fdf1e4c4331a43dd78df7055ca5faa935"
+    },
+    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\serviceProducts.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\serviceProducts.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 23
+          },
+          "end": {
+            "line": 47,
+            "column": 1
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 1
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "f6212d2c0e53c5c933e64c1cefa3defec8aec002"
+    },
+    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockServices.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockServices.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 20
+          },
+          "end": {
+            "line": 51,
+            "column": 1
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 2
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "911d0947bbcc8cd2c3012392dea192350df76dec"
+    },
+    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProduct.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProduct.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 20
+          },
+          "end": {
+            "line": 15,
+            "column": 2
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 1
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "396b8dae0a39523fbb0254ea3278d10738be9c26"
+    },
+    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProducts.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProducts.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 21
+          },
+          "end": {
+            "line": 54,
+            "column": 1
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 1
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "ded8502f588c14e08a740b34825a5c8a013c03e6"
+    }
+  }
+}

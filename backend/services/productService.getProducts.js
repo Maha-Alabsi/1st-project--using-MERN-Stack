@@ -3,7 +3,7 @@ import logger from '../utils/logger.js';
 
 const getProductsService = async (page, pageSize, keyword) => {
   try {
-    console.log('product servicr api......')
+    console.log('product service api......')
     const skip = (page - 1) * pageSize;
     // count the documents matched the searched key
     const totalitems = await ProductModel.find(keyword).countDocuments();

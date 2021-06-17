@@ -10,7 +10,7 @@ const router = express.Router();
 router.get('/', validations.getProducts, getProducts);
 
 // Fetch single product by id
-// Get /api/product/:id
+// Get /api/products/:id
 router.get('/:id', validations.getProduct, getProduct);
 
 export default router;

@@ -33,17 +33,6 @@ describe('tests for fetch API', () => {
   });
 
   test('parses the response of fetch correctly', async () => {
-    // const fakeFetch = () => {
-    //   return Promise.resolve({
-    //     json: () =>
-    //       Promise.resolve({
-    //        data
-    //       }),
-    //   });
-    // };
-    // const fetchData = await fetchProduct(fakeFetch);
-    //expect(fetchData.result).toContain(mockProduct)
-
     global.fetch = jest.fn().mockImplementation(() => {
       return Promise.resolve({
         json: () =>
@@ -89,3 +78,14 @@ describe('tests for fetch API', () => {
     global.fetch.mockClear();
   });
 });
+
+// const fakeFetch = () => {
+//   return Promise.resolve({
+//     json: () =>
+//       Promise.resolve({
+//        data
+//       }),
+//   });
+// };
+// const fetchData = await fetchProduct(fakeFetch);
+//expect(fetchData.result).toContain(mockProduct)

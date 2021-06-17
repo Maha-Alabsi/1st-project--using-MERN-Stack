@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import colors from 'colors';
 import logger from './../utils/logger.js';
 import config from './index.js';
 const db = config.mongoURI;

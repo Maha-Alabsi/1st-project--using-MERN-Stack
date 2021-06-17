@@ -1,4 +1,3 @@
-import 'regenerator-runtime/runtime.js';
 import mongoose from 'mongoose';
 import ProductModel from '../productModel.js';
 import connectDB from '../../config/db.js';
@@ -19,6 +18,7 @@ const mockPro = {
   createdAt: '2021-04-14T13:20:46.189Z',
   updatedAt: '2021-04-14T13:20:46.189Z',
 };
+
 describe('Product Model', () => {
   beforeAll(async () => {
     await ProductModel.remove({});
@@ -57,6 +57,7 @@ describe('Product Model', () => {
     expect(ProductModel).toBeDefined();
   });
 
+  // Get product
   test('get a product', async () => {
     const product = new ProductModel({
       name: 'smalltable',
@@ -75,6 +76,7 @@ describe('Product Model', () => {
     expect(actual).toEqual(expected);
   });
 
+  // Save product
   test('save a product', async () => {
     const product = new ProductModel({
       name: 'smalltable',
@@ -92,6 +94,7 @@ describe('Product Model', () => {
     expect(actual).toEqual(expected);
   });
 
+  // Update product
   test('update a product', async () => {
     const product = new ProductModel({
       name: 'smalltable',
