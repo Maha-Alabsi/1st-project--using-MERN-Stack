@@ -3,6 +3,7 @@ import getProductsService from '../../../services/productService.getProducts.js'
 import ProductModel from '../../../models/productModel.js';
 import serviceProducts from '../../../fecther/serviceProducts.js';
 import mockService from '../../../fecther/mockServices.js';
+
 jest.mock('../../../models/productModel.js');
 
 describe('getProducts Service ', () => {

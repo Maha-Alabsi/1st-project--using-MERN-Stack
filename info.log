@@ -11902,3 +11902,97 @@
 {"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-17T18:57:57.663Z"}
 {"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-17T19:01:20.607Z"}
 {"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-17T19:05:53.841Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-17T20:07:02.255Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-17T20:21:21.035Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T09:30:29.652Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T09:31:25.474Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T09:34:10.201Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T09:39:18.071Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T09:40:35.225Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T09:44:38.512Z"}
+{"message":"Error: mError is not defined","level":"error","timestamp":"2021-06-20T09:52:22.707Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T09:53:39.077Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T09:59:31.340Z"}
+{"message":"Error: Required","level":"error","timestamp":"2021-06-20T10:01:32.376Z"}
+{"message":"Error: Required","level":"error","timestamp":"2021-06-20T10:02:53.489Z"}
+{"message":"Error: Required","level":"error","timestamp":"2021-06-20T10:04:27.943Z"}
+{"message":"Error: NotFound","level":"error","timestamp":"2021-06-20T10:05:58.217Z"}
+{"message":"Error: NotFound","level":"error","timestamp":"2021-06-20T10:07:18.325Z"}
+{"message":"Error: NotFound","level":"error","timestamp":"2021-06-20T10:09:27.487Z"}
+{"message":"Error: NotFound","level":"error","timestamp":"2021-06-20T10:43:46.096Z"}
+{"message":"Error: ","level":"error","timestamp":"2021-06-20T10:44:21.648Z"}
+{"message":"Error: ","level":"error","timestamp":"2021-06-20T10:45:24.520Z"}
+{"message":"Error: ","level":"error","timestamp":"2021-06-20T10:46:18.881Z"}
+{"message":"Error: error message","level":"error","timestamp":"2021-06-20T10:58:09.111Z"}
+{"message":"Error: error message","level":"error","timestamp":"2021-06-20T10:59:33.395Z"}
+{"message":"Error: Promise.rejects is not a function","level":"error","timestamp":"2021-06-20T11:16:10.380Z"}
+{"message":"Error: undefined","level":"error","timestamp":"2021-06-20T12:10:42.045Z"}
+{"message":"Error: Products Not found","level":"error","timestamp":"2021-06-20T12:12:54.282Z"}
+{"message":"Error: Products Not found","level":"error","timestamp":"2021-06-20T12:13:38.141Z"}
+{"message":"Error: Products Not found","level":"error","timestamp":"2021-06-20T12:14:56.402Z"}
+{"message":"Error: Products Not found","level":"error","timestamp":"2021-06-20T12:15:43.471Z"}
+{"message":"Error: Products Not found","level":"error","timestamp":"2021-06-20T12:16:42.603Z"}
+{"message":"Error: Products Not found","level":"error","timestamp":"2021-06-20T12:21:03.509Z"}
+{"message":"Error: Products Not found","level":"error","timestamp":"2021-06-20T12:21:55.267Z"}
+{"message":"Error: Products Not found","level":"error","timestamp":"2021-06-20T12:23:13.129Z"}
+{"message":"Error: Products Not found","level":"error","timestamp":"2021-06-20T12:24:20.134Z"}
+{"message":"Error: Products Not found","level":"error","timestamp":"2021-06-20T12:25:19.096Z"}
+{"message":"Error: Products Not found","level":"error","timestamp":"2021-06-20T12:26:25.359Z"}
+{"message":"Error: undefined","level":"error","timestamp":"2021-06-20T12:32:45.719Z"}
+{"message":"Error: undefined","level":"error","timestamp":"2021-06-20T12:33:23.879Z"}
+{"message":"Error: undefined","level":"error","timestamp":"2021-06-20T12:34:03.090Z"}
+{"message":"Error: undefined","level":"error","timestamp":"2021-06-20T12:35:34.570Z"}
+{"message":"Error: undefined","level":"error","timestamp":"2021-06-20T12:41:16.815Z"}
+{"message":"Error: undefined","level":"error","timestamp":"2021-06-20T12:42:46.830Z"}
+{"message":"Error: undefined","level":"error","timestamp":"2021-06-20T12:44:35.084Z"}
+{"message":"Error: undefined","level":"error","timestamp":"2021-06-20T12:47:49.559Z"}
+{"message":"Error: Products Not found","level":"error","timestamp":"2021-06-20T12:49:24.063Z"}
+{"message":"Error: Products Not found","level":"error","timestamp":"2021-06-20T12:51:26.654Z"}
+{"message":"Error: Products Not found","level":"error","timestamp":"2021-06-20T12:52:29.206Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T13:15:32.989Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T13:19:32.721Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T13:20:12.079Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T13:21:13.194Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T13:22:05.277Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T13:23:24.245Z"}
+{"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T13:24:51.558Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T14:42:16.597Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T14:45:58.742Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:02:58.169Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:26:22.715Z"}
+{"message":"Error: Whoops!","level":"error","timestamp":"2021-06-20T15:36:56.934Z"}
+{"message":"Error: There is a problem in finding data from the database","level":"error","timestamp":"2021-06-20T15:37:42.705Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:48:49.498Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:48:51.227Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:51:25.238Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:51:26.942Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:51:36.182Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:51:37.642Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:51:42.058Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:51:43.477Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:51:48.840Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:51:50.237Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:53:16.451Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:53:18.091Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:54:40.322Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:54:42.019Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:56:13.402Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:56:15.076Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:56:58.846Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:57:00.234Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:57:48.093Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:57:49.766Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:58:34.564Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:58:35.968Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:58:51.025Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:58:52.702Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:59:07.852Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:59:09.294Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:59:18.067Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:59:20.420Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:59:21.891Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:59:25.282Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:59:26.694Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-06-20T15:59:52.755Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T15:59:54.380Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-06-20T16:58:37.089Z"}

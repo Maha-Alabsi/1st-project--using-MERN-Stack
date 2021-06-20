@@ -89,7 +89,7 @@
                 <canvas id="test-suites-canvas" width="100" height="100"></canvas>
                 <h2>Test Suites</h2>
                 <div class="list-group">
-                    <p id="test-suites-results" class="list-group-item list-group-item-action">5 passed, 6 total</p>
+                    <p id="test-suites-results" class="list-group-item list-group-item-action">5 passed, 5 total</p>
                 </div>
             </div>
             <!-- /.col-lg-4 -->
@@ -97,7 +97,7 @@
                 <canvas id="tests-canvas" width="100" height="100"></canvas>
                 <h2>Tests</h2>
                 <div class="list-group">
-                    <p id="tests-results" class="list-group-item list-group-item-action">9 passed, 9 total</p>
+                    <p id="tests-results" class="list-group-item list-group-item-action">13 passed, 13 total</p>
                 </div>
             </div>
             <!-- /.col-lg-4 -->
@@ -125,16 +125,16 @@
 }</div>
         <div id="accordion">
             <div class="d-none" id="test-results">{
-  &quot;numFailedTestSuites&quot;: 1,
+  &quot;numFailedTestSuites&quot;: 0,
   &quot;numFailedTests&quot;: 0,
   &quot;numPassedTestSuites&quot;: 5,
-  &quot;numPassedTests&quot;: 9,
+  &quot;numPassedTests&quot;: 13,
   &quot;numPendingTestSuites&quot;: 0,
   &quot;numPendingTests&quot;: 0,
-  &quot;numRuntimeErrorTestSuites&quot;: 1,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
   &quot;numTodoTests&quot;: 0,
-  &quot;numTotalTestSuites&quot;: 6,
-  &quot;numTotalTests&quot;: 9,
+  &quot;numTotalTestSuites&quot;: 5,
+  &quot;numTotalTests&quot;: 13,
   &quot;openHandles&quot;: [],
   &quot;snapshot&quot;: {
     &quot;added&quot;: 0,
@@ -152,9 +152,149 @@
     &quot;unmatched&quot;: 0,
     &quot;updated&quot;: 0
   },
-  &quot;startTime&quot;: 1623956749094,
+  &quot;startTime&quot;: 1624208299023,
   &quot;success&quot;: false,
   &quot;testResults&quot;: [
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 0,
+      &quot;numPassingTests&quot;: 3,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1624208313368,
+        &quot;runtime&quot;: 13768,
+        &quot;slow&quot;: true,
+        &quot;start&quot;: 1624208299600
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0
+      },
+      &quot;testFilePath&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\getProduct.test.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;getProduct Controller&quot;
+          ],
+          &quot;duration&quot;: 94,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;getProduct Controller Should return 200 &amp; return correct value&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Should return 200 &amp; return correct value&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;getProduct Controller&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;getProduct Controller Should return message error if ProductModel.findById errors&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Should return message error if ProductModel.findById errors&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;getProduct Controller&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;getProduct Controller Should return 404 if the id &#x3D; null&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Should return 404 if the id &#x3D; null&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: null
+    },
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 0,
+      &quot;numPassingTests&quot;: 3,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1624208314149,
+        &quot;runtime&quot;: 591,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 1624208313558
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;uncheckedKeys&quot;: [],
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0
+      },
+      &quot;testFilePath&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\getProducts.test.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;getProducts Controller&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;getProducts Controller Should return 200 &amp; return correct value&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Should return 200 &amp; return correct value&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;getProducts Controller&quot;
+          ],
+          &quot;duration&quot;: 6,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;getProducts Controller Should return message error if getProductsService errors&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Should return message error if getProductsService errors&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;getProducts Controller&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;getProducts Controller Should return message error if keyword&amp;page&amp;limit errors&quot;,
+          &quot;invocations&quot;: 1,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;Should return message error if keyword&amp;page&amp;limit errors&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: null
+    },
     {
       &quot;leaks&quot;: false,
       &quot;numFailingTests&quot;: 0,
@@ -163,10 +303,10 @@
       &quot;numTodoTests&quot;: 0,
       &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1623956755913,
-        &quot;runtime&quot;: 6517,
-        &quot;slow&quot;: true,
-        &quot;start&quot;: 1623956749396
+        &quot;end&quot;: 1624208318971,
+        &quot;runtime&quot;: 4686,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 1624208314285
       },
       &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
@@ -184,7 +324,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;Product Model&quot;
           ],
-          &quot;duration&quot;: 173,
+          &quot;duration&quot;: 163,
           &quot;failureDetails&quot;: [],
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;Product Model has the mentioned attributes attributes&quot;,
@@ -198,7 +338,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;Product Model&quot;
           ],
-          &quot;duration&quot;: 249,
+          &quot;duration&quot;: 166,
           &quot;failureDetails&quot;: [],
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;Product Model check if the productModel is defined&quot;,
@@ -212,7 +352,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;Product Model&quot;
           ],
-          &quot;duration&quot;: 578,
+          &quot;duration&quot;: 529,
           &quot;failureDetails&quot;: [],
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;Product Model get a product&quot;,
@@ -226,7 +366,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;Product Model&quot;
           ],
-          &quot;duration&quot;: 371,
+          &quot;duration&quot;: 342,
           &quot;failureDetails&quot;: [],
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;Product Model save a product&quot;,
@@ -240,7 +380,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;Product Model&quot;
           ],
-          &quot;duration&quot;: 488,
+          &quot;duration&quot;: 501,
           &quot;failureDetails&quot;: [],
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;Product Model update a product&quot;,
@@ -261,10 +401,10 @@
       &quot;numTodoTests&quot;: 0,
       &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1623956757208,
-        &quot;runtime&quot;: 1127,
+        &quot;end&quot;: 1624208320924,
+        &quot;runtime&quot;: 1829,
         &quot;slow&quot;: false,
-        &quot;start&quot;: 1623956756081
+        &quot;start&quot;: 1624208319095
       },
       &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
@@ -282,7 +422,7 @@
           &quot;ancestorTitles&quot;: [
             &quot;Test the root path&quot;
           ],
-          &quot;duration&quot;: 94,
+          &quot;duration&quot;: 54,
           &quot;failureDetails&quot;: [],
           &quot;failureMessages&quot;: [],
           &quot;fullName&quot;: &quot;Test the root path It should response the GET method&quot;,
@@ -303,10 +443,10 @@
       &quot;numTodoTests&quot;: 0,
       &quot;openHandles&quot;: [],
       &quot;perfStats&quot;: {
-        &quot;end&quot;: 1623956758144,
-        &quot;runtime&quot;: 802,
+        &quot;end&quot;: 1624208322143,
+        &quot;runtime&quot;: 1066,
         &quot;slow&quot;: false,
-        &quot;start&quot;: 1623956757342
+        &quot;start&quot;: 1624208321077
       },
       &quot;skipped&quot;: false,
       &quot;snapshot&quot;: {
@@ -322,136 +462,59 @@
       &quot;testResults&quot;: [
         {
           &quot;ancestorTitles&quot;: [
-            &quot;getProduct Controller&quot;
+            &quot;getProducts Service &quot;
           ],
-          &quot;duration&quot;: 49,
+          &quot;duration&quot;: 6,
           &quot;failureDetails&quot;: [],
           &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;getProduct Controller Should pass param id&quot;,
+          &quot;fullName&quot;: &quot;getProducts Service  Should return correct value&quot;,
           &quot;invocations&quot;: 1,
           &quot;location&quot;: null,
           &quot;numPassingAsserts&quot;: 0,
           &quot;status&quot;: &quot;passed&quot;,
-          &quot;title&quot;: &quot;Should pass param id&quot;
+          &quot;title&quot;: &quot;Should return correct value&quot;
         }
       ],
       &quot;failureMessage&quot;: null
-    },
-    {
-      &quot;leaks&quot;: false,
-      &quot;numFailingTests&quot;: 0,
-      &quot;numPassingTests&quot;: 1,
-      &quot;numPendingTests&quot;: 0,
-      &quot;numTodoTests&quot;: 0,
-      &quot;openHandles&quot;: [],
-      &quot;perfStats&quot;: {
-        &quot;end&quot;: 1623956758834,
-        &quot;runtime&quot;: 550,
-        &quot;slow&quot;: false,
-        &quot;start&quot;: 1623956758284
-      },
-      &quot;skipped&quot;: false,
-      &quot;snapshot&quot;: {
-        &quot;added&quot;: 0,
-        &quot;fileDeleted&quot;: false,
-        &quot;matched&quot;: 0,
-        &quot;unchecked&quot;: 0,
-        &quot;uncheckedKeys&quot;: [],
-        &quot;unmatched&quot;: 0,
-        &quot;updated&quot;: 0
-      },
-      &quot;testFilePath&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\getProduct.test.js&quot;,
-      &quot;testResults&quot;: [
-        {
-          &quot;ancestorTitles&quot;: [
-            &quot;getProduct Controller&quot;
-          ],
-          &quot;duration&quot;: 7,
-          &quot;failureDetails&quot;: [],
-          &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;getProduct Controller Should pass param id&quot;,
-          &quot;invocations&quot;: 1,
-          &quot;location&quot;: null,
-          &quot;numPassingAsserts&quot;: 0,
-          &quot;status&quot;: &quot;passed&quot;,
-          &quot;title&quot;: &quot;Should pass param id&quot;
-        }
-      ],
-      &quot;failureMessage&quot;: null
-    },
-    {
-      &quot;leaks&quot;: false,
-      &quot;numFailingTests&quot;: 0,
-      &quot;numPassingTests&quot;: 1,
-      &quot;numPendingTests&quot;: 0,
-      &quot;numTodoTests&quot;: 0,
-      &quot;openHandles&quot;: [],
-      &quot;perfStats&quot;: {
-        &quot;end&quot;: 1623956759491,
-        &quot;runtime&quot;: 522,
-        &quot;slow&quot;: false,
-        &quot;start&quot;: 1623956758969
-      },
-      &quot;skipped&quot;: false,
-      &quot;snapshot&quot;: {
-        &quot;added&quot;: 0,
-        &quot;fileDeleted&quot;: false,
-        &quot;matched&quot;: 0,
-        &quot;unchecked&quot;: 0,
-        &quot;uncheckedKeys&quot;: [],
-        &quot;unmatched&quot;: 0,
-        &quot;updated&quot;: 0
-      },
-      &quot;testFilePath&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\getProducts.test.js&quot;,
-      &quot;testResults&quot;: [
-        {
-          &quot;ancestorTitles&quot;: [
-            &quot;getProducts Controller&quot;
-          ],
-          &quot;duration&quot;: 8,
-          &quot;failureDetails&quot;: [],
-          &quot;failureMessages&quot;: [],
-          &quot;fullName&quot;: &quot;getProducts Controller Should pass if the all query string items found&quot;,
-          &quot;invocations&quot;: 1,
-          &quot;location&quot;: null,
-          &quot;numPassingAsserts&quot;: 0,
-          &quot;status&quot;: &quot;passed&quot;,
-          &quot;title&quot;: &quot;Should pass if the all query string items found&quot;
-        }
-      ],
-      &quot;failureMessage&quot;: null
-    },
-    {
-      &quot;failureMessage&quot;: &quot;  \u001b[1m● \u001b[22mTest suite failed to run\n\n    \u001b[1m\u001b[31mJest encountered an unexpected token\u001b[39m\u001b[22m\n\n    Jest failed to parse a file. This happens e.g. when your code or its dependencies use non-standard JavaScript syntax, or when Jest is not configured to support such syntax.\n\n    Out of the box Jest supports Babel, which will be used to transform your files into valid JS based on your Babel configuration.\n\n    By default \&quot;node_modules\&quot; folder is ignored by transformers.\n\n    Here&#39;s what you can do:\n     • If you are trying to use ECMAScript Modules, see \u001b[4mhttps:&#x2F;&#x2F;jestjs.io&#x2F;docs&#x2F;ecmascript-modules\u001b[24m for how to enable it.\n     • To have some of your \&quot;node_modules\&quot; files transformed, you can specify a custom \u001b[1m\&quot;transformIgnorePatterns\&quot;\u001b[22m in your config.\n     • If you need a custom transformation specify a \u001b[1m\&quot;transform\&quot;\u001b[22m option in your config.\n     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the \u001b[1m\&quot;moduleNameMapper\&quot;\u001b[22m config option.\n\n    You&#39;ll find more details and examples of these config options in the docs:\n    \u001b[36mhttps:&#x2F;&#x2F;jestjs.io&#x2F;docs&#x2F;configuration\u001b[39m\n    For information about custom transformations, see:\n    \u001b[36mhttps:&#x2F;&#x2F;jestjs.io&#x2F;docs&#x2F;code-transformation\u001b[39m\n\n    \u001b[1m\u001b[31mDetails:\u001b[39m\u001b[22m\n\n    C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\frontend\\src\\services\\__tests__\\fetchProducts.test.js:1\n    ({\&quot;Object.&lt;anonymous&gt;\&quot;:function(module,exports,require,__dirname,__filename,jest){import { assert } from &#39;assert&#39;;\n                                                                                      ^^^^^^\n\n    SyntaxError: Cannot use import statement outside a module\n\n      \u001b[2mat Runtime.createScriptFromCode (\u001b[22mnode_modules&#x2F;jest-runtime&#x2F;build&#x2F;index.js\u001b[2m:1479:14)\u001b[22m\n      \u001b[2mat TestScheduler.scheduleTests (\u001b[22mnode_modules&#x2F;@jest&#x2F;core&#x2F;build&#x2F;TestScheduler.js\u001b[2m:333:13)\u001b[22m\n&quot;,
-      &quot;leaks&quot;: false,
-      &quot;numFailingTests&quot;: 0,
-      &quot;numPassingTests&quot;: 0,
-      &quot;numPendingTests&quot;: 0,
-      &quot;numTodoTests&quot;: 0,
-      &quot;openHandles&quot;: [],
-      &quot;perfStats&quot;: {
-        &quot;end&quot;: 0,
-        &quot;runtime&quot;: 0,
-        &quot;slow&quot;: false,
-        &quot;start&quot;: 0
-      },
-      &quot;skipped&quot;: false,
-      &quot;snapshot&quot;: {
-        &quot;added&quot;: 0,
-        &quot;fileDeleted&quot;: false,
-        &quot;matched&quot;: 0,
-        &quot;unchecked&quot;: 0,
-        &quot;uncheckedKeys&quot;: [],
-        &quot;unmatched&quot;: 0,
-        &quot;updated&quot;: 0
-      },
-      &quot;testExecError&quot;: {},
-      &quot;testFilePath&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\frontend\\src\\services\\__tests__\\fetchProducts.test.js&quot;,
-      &quot;testResults&quot;: []
     }
   ],
   &quot;wasInterrupted&quot;: false,
   &quot;coverageMap&quot;: {
+    &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\utils\\logger.js&quot;: {
+      &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\utils\\logger.js&quot;,
+      &quot;statementMap&quot;: {
+        &quot;0&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 2,
+            &quot;column&quot;: 19
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 2,
+            &quot;column&quot;: 26
+          }
+        },
+        &quot;1&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 4,
+            &quot;column&quot;: 15
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 25,
+            &quot;column&quot;: 2
+          }
+        }
+      },
+      &quot;fnMap&quot;: {},
+      &quot;branchMap&quot;: {},
+      &quot;s&quot;: {
+        &quot;0&quot;: 6,
+        &quot;1&quot;: 6
+      },
+      &quot;f&quot;: {},
+      &quot;b&quot;: {},
+      &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
+      &quot;hash&quot;: &quot;a5d30d1d39eb7a4589ef31b81d6475fe3fc6f189&quot;
+    },
     &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\models\\productModel.js&quot;: {
       &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\models\\productModel.js&quot;,
       &quot;statementMap&quot;: {
@@ -487,26 +550,259 @@
       &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
       &quot;hash&quot;: &quot;62058d4b94e866effc478050dc4403f2e8aee177&quot;
     },
-    &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\utils\\logger.js&quot;: {
-      &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\utils\\logger.js&quot;,
+    &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProduct.js&quot;: {
+      &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProduct.js&quot;,
       &quot;statementMap&quot;: {
         &quot;0&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 2,
+            &quot;line&quot;: 4,
             &quot;column&quot;: 19
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 2,
-            &quot;column&quot;: 26
+            &quot;line&quot;: 19,
+            &quot;column&quot;: 1
           }
         },
         &quot;1&quot;: {
           &quot;start&quot;: {
-            &quot;line&quot;: 4,
-            &quot;column&quot;: 15
+            &quot;line&quot;: 5,
+            &quot;column&quot;: 2
           },
           &quot;end&quot;: {
-            &quot;line&quot;: 25,
+            &quot;line&quot;: 18,
+            &quot;column&quot;: 3
+          }
+        },
+        &quot;2&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 6,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 6,
+            &quot;column&quot;: 39
+          }
+        },
+        &quot;3&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 7,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 9,
+            &quot;column&quot;: 5
+          }
+        },
+        &quot;4&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 8,
+            &quot;column&quot;: 6
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 8,
+            &quot;column&quot;: 60
+          }
+        },
+        &quot;5&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 10,
+            &quot;column&quot;: 20
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 10,
+            &quot;column&quot;: 62
+          }
+        },
+        &quot;6&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 11,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 13,
+            &quot;column&quot;: 5
+          }
+        },
+        &quot;7&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 12,
+            &quot;column&quot;: 6
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 12,
+            &quot;column&quot;: 99
+          }
+        },
+        &quot;8&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 14,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 14,
+            &quot;column&quot;: 34
+          }
+        },
+        &quot;9&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 15,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 15,
+            &quot;column&quot;: 19
+          }
+        },
+        &quot;10&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 17,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 17,
+            &quot;column&quot;: 44
+          }
+        }
+      },
+      &quot;fnMap&quot;: {
+        &quot;0&quot;: {
+          &quot;name&quot;: &quot;(anonymous_0)&quot;,
+          &quot;decl&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 4,
+              &quot;column&quot;: 19
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 4,
+              &quot;column&quot;: 20
+            }
+          },
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 4,
+              &quot;column&quot;: 39
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 19,
+              &quot;column&quot;: 1
+            }
+          },
+          &quot;line&quot;: 4
+        }
+      },
+      &quot;branchMap&quot;: {
+        &quot;0&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 7,
+              &quot;column&quot;: 4
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 9,
+              &quot;column&quot;: 5
+            }
+          },
+          &quot;type&quot;: &quot;if&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 7,
+                &quot;column&quot;: 4
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 9,
+                &quot;column&quot;: 5
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 7,
+                &quot;column&quot;: 4
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 9,
+                &quot;column&quot;: 5
+              }
+            }
+          ],
+          &quot;line&quot;: 7
+        },
+        &quot;1&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 11,
+              &quot;column&quot;: 4
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 13,
+              &quot;column&quot;: 5
+            }
+          },
+          &quot;type&quot;: &quot;if&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 11,
+                &quot;column&quot;: 4
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 13,
+                &quot;column&quot;: 5
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 11,
+                &quot;column&quot;: 4
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 13,
+                &quot;column&quot;: 5
+              }
+            }
+          ],
+          &quot;line&quot;: 11
+        }
+      },
+      &quot;s&quot;: {
+        &quot;0&quot;: 2,
+        &quot;1&quot;: 3,
+        &quot;2&quot;: 3,
+        &quot;3&quot;: 3,
+        &quot;4&quot;: 1,
+        &quot;5&quot;: 2,
+        &quot;6&quot;: 2,
+        &quot;7&quot;: 1,
+        &quot;8&quot;: 1,
+        &quot;9&quot;: 1,
+        &quot;10&quot;: 0
+      },
+      &quot;f&quot;: {
+        &quot;0&quot;: 3
+      },
+      &quot;b&quot;: {
+        &quot;0&quot;: [
+          1,
+          2
+        ],
+        &quot;1&quot;: [
+          1,
+          1
+        ]
+      },
+      &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
+      &quot;hash&quot;: &quot;a100ebbbcd9c4d86f517da31a669eba232a28f96&quot;
+    },
+    &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProduct.js&quot;: {
+      &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProduct.js&quot;,
+      &quot;statementMap&quot;: {
+        &quot;0&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 1,
+            &quot;column&quot;: 20
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 15,
             &quot;column&quot;: 2
           }
         }
@@ -514,13 +810,657 @@
       &quot;fnMap&quot;: {},
       &quot;branchMap&quot;: {},
       &quot;s&quot;: {
-        &quot;0&quot;: 6,
-        &quot;1&quot;: 6
+        &quot;0&quot;: 1
       },
       &quot;f&quot;: {},
       &quot;b&quot;: {},
       &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
-      &quot;hash&quot;: &quot;a5d30d1d39eb7a4589ef31b81d6475fe3fc6f189&quot;
+      &quot;hash&quot;: &quot;396b8dae0a39523fbb0254ea3278d10738be9c26&quot;
+    },
+    &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\services\\productService.getProducts.js&quot;: {
+      &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\services\\productService.getProducts.js&quot;,
+      &quot;statementMap&quot;: {
+        &quot;0&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 4,
+            &quot;column&quot;: 27
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 23,
+            &quot;column&quot;: 1
+          }
+        },
+        &quot;1&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 5,
+            &quot;column&quot;: 2
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 22,
+            &quot;column&quot;: 3
+          }
+        },
+        &quot;2&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 6,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 6,
+            &quot;column&quot;: 44
+          }
+        },
+        &quot;3&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 7,
+            &quot;column&quot;: 17
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 7,
+            &quot;column&quot;: 38
+          }
+        },
+        &quot;4&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 9,
+            &quot;column&quot;: 23
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 9,
+            &quot;column&quot;: 72
+          }
+        },
+        &quot;5&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 11,
+            &quot;column&quot;: 23
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 11,
+            &quot;column&quot;: 55
+          }
+        },
+        &quot;6&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 12,
+            &quot;column&quot;: 21
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 12,
+            &quot;column&quot;: 80
+          }
+        },
+        &quot;7&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 13,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 13,
+            &quot;column&quot;: 25
+          }
+        },
+        &quot;8&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 14,
+            &quot;column&quot;: 24
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 18,
+            &quot;column&quot;: 5
+          }
+        },
+        &quot;9&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 19,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 19,
+            &quot;column&quot;: 23
+          }
+        },
+        &quot;10&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 21,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 21,
+            &quot;column&quot;: 44
+          }
+        }
+      },
+      &quot;fnMap&quot;: {
+        &quot;0&quot;: {
+          &quot;name&quot;: &quot;(anonymous_0)&quot;,
+          &quot;decl&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 4,
+              &quot;column&quot;: 27
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 4,
+              &quot;column&quot;: 28
+            }
+          },
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 4,
+              &quot;column&quot;: 62
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 23,
+              &quot;column&quot;: 1
+            }
+          },
+          &quot;line&quot;: 4
+        }
+      },
+      &quot;branchMap&quot;: {},
+      &quot;s&quot;: {
+        &quot;0&quot;: 3,
+        &quot;1&quot;: 1,
+        &quot;2&quot;: 1,
+        &quot;3&quot;: 1,
+        &quot;4&quot;: 1,
+        &quot;5&quot;: 1,
+        &quot;6&quot;: 1,
+        &quot;7&quot;: 1,
+        &quot;8&quot;: 1,
+        &quot;9&quot;: 1,
+        &quot;10&quot;: 0
+      },
+      &quot;f&quot;: {
+        &quot;0&quot;: 1
+      },
+      &quot;b&quot;: {},
+      &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
+      &quot;hash&quot;: &quot;9a6a9e6cf45b1de2ae9e5b5eaaf3f78bd8b7490d&quot;
+    },
+    &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProducts.js&quot;: {
+      &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProducts.js&quot;,
+      &quot;statementMap&quot;: {
+        &quot;0&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 4,
+            &quot;column&quot;: 20
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 41,
+            &quot;column&quot;: 1
+          }
+        },
+        &quot;1&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 5,
+            &quot;column&quot;: 2
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 40,
+            &quot;column&quot;: 3
+          }
+        },
+        &quot;2&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 6,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 6,
+            &quot;column&quot;: 46
+          }
+        },
+        &quot;3&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 7,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 9,
+            &quot;column&quot;: 5
+          }
+        },
+        &quot;4&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 8,
+            &quot;column&quot;: 6
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 8,
+            &quot;column&quot;: 89
+          }
+        },
+        &quot;5&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 10,
+            &quot;column&quot;: 20
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 17,
+            &quot;column&quot;: 10
+          }
+        },
+        &quot;6&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 18,
+            &quot;column&quot;: 17
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 18,
+            &quot;column&quot;: 46
+          }
+        },
+        &quot;7&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 19,
+            &quot;column&quot;: 21
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 19,
+            &quot;column&quot;: 51
+          }
+        },
+        &quot;8&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 21,
+            &quot;column&quot;: 25
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 23,
+            &quot;column&quot;: 6
+          }
+        },
+        &quot;9&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 26,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 28,
+            &quot;column&quot;: 5
+          }
+        },
+        &quot;10&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 27,
+            &quot;column&quot;: 6
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 27,
+            &quot;column&quot;: 103
+          }
+        },
+        &quot;11&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 30,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 37,
+            &quot;column&quot;: 7
+          }
+        },
+        &quot;12&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 39,
+            &quot;column&quot;: 4
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 39,
+            &quot;column&quot;: 44
+          }
+        }
+      },
+      &quot;fnMap&quot;: {
+        &quot;0&quot;: {
+          &quot;name&quot;: &quot;(anonymous_0)&quot;,
+          &quot;decl&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 4,
+              &quot;column&quot;: 20
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 4,
+              &quot;column&quot;: 21
+            }
+          },
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 4,
+              &quot;column&quot;: 40
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 41,
+              &quot;column&quot;: 1
+            }
+          },
+          &quot;line&quot;: 4
+        }
+      },
+      &quot;branchMap&quot;: {
+        &quot;0&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 7,
+              &quot;column&quot;: 4
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 9,
+              &quot;column&quot;: 5
+            }
+          },
+          &quot;type&quot;: &quot;if&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 7,
+                &quot;column&quot;: 4
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 9,
+                &quot;column&quot;: 5
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 7,
+                &quot;column&quot;: 4
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 9,
+                &quot;column&quot;: 5
+              }
+            }
+          ],
+          &quot;line&quot;: 7
+        },
+        &quot;1&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 7,
+              &quot;column&quot;: 7
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 7,
+              &quot;column&quot;: 63
+            }
+          },
+          &quot;type&quot;: &quot;binary-expr&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 7,
+                &quot;column&quot;: 7
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 7,
+                &quot;column&quot;: 25
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 7,
+                &quot;column&quot;: 27
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 7,
+                &quot;column&quot;: 42
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 7,
+                &quot;column&quot;: 44
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 7,
+                &quot;column&quot;: 63
+              }
+            }
+          ],
+          &quot;line&quot;: 7
+        },
+        &quot;2&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 10,
+              &quot;column&quot;: 20
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 17,
+              &quot;column&quot;: 10
+            }
+          },
+          &quot;type&quot;: &quot;cond-expr&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 11,
+                &quot;column&quot;: 8
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 16,
+                &quot;column&quot;: 9
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 17,
+                &quot;column&quot;: 8
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 17,
+                &quot;column&quot;: 10
+              }
+            }
+          ],
+          &quot;line&quot;: 10
+        },
+        &quot;3&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 18,
+              &quot;column&quot;: 26
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 18,
+              &quot;column&quot;: 45
+            }
+          },
+          &quot;type&quot;: &quot;binary-expr&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 18,
+                &quot;column&quot;: 26
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 18,
+                &quot;column&quot;: 40
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 18,
+                &quot;column&quot;: 44
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 18,
+                &quot;column&quot;: 45
+              }
+            }
+          ],
+          &quot;line&quot;: 18
+        },
+        &quot;4&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 19,
+              &quot;column&quot;: 30
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 19,
+              &quot;column&quot;: 50
+            }
+          },
+          &quot;type&quot;: &quot;binary-expr&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 19,
+                &quot;column&quot;: 30
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 19,
+                &quot;column&quot;: 45
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 19,
+                &quot;column&quot;: 49
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 19,
+                &quot;column&quot;: 50
+              }
+            }
+          ],
+          &quot;line&quot;: 19
+        },
+        &quot;5&quot;: {
+          &quot;loc&quot;: {
+            &quot;start&quot;: {
+              &quot;line&quot;: 26,
+              &quot;column&quot;: 4
+            },
+            &quot;end&quot;: {
+              &quot;line&quot;: 28,
+              &quot;column&quot;: 5
+            }
+          },
+          &quot;type&quot;: &quot;if&quot;,
+          &quot;locations&quot;: [
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 26,
+                &quot;column&quot;: 4
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 28,
+                &quot;column&quot;: 5
+              }
+            },
+            {
+              &quot;start&quot;: {
+                &quot;line&quot;: 26,
+                &quot;column&quot;: 4
+              },
+              &quot;end&quot;: {
+                &quot;line&quot;: 28,
+                &quot;column&quot;: 5
+              }
+            }
+          ],
+          &quot;line&quot;: 26
+        }
+      },
+      &quot;s&quot;: {
+        &quot;0&quot;: 2,
+        &quot;1&quot;: 3,
+        &quot;2&quot;: 3,
+        &quot;3&quot;: 3,
+        &quot;4&quot;: 3,
+        &quot;5&quot;: 3,
+        &quot;6&quot;: 3,
+        &quot;7&quot;: 3,
+        &quot;8&quot;: 3,
+        &quot;9&quot;: 3,
+        &quot;10&quot;: 2,
+        &quot;11&quot;: 1,
+        &quot;12&quot;: 0
+      },
+      &quot;f&quot;: {
+        &quot;0&quot;: 3
+      },
+      &quot;b&quot;: {
+        &quot;0&quot;: [
+          3,
+          0
+        ],
+        &quot;1&quot;: [
+          3,
+          2,
+          2
+        ],
+        &quot;2&quot;: [
+          2,
+          1
+        ],
+        &quot;3&quot;: [
+          3,
+          1
+        ],
+        &quot;4&quot;: [
+          3,
+          1
+        ],
+        &quot;5&quot;: [
+          2,
+          1
+        ]
+      },
+      &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
+      &quot;hash&quot;: &quot;beba312dcdfb7c7461778093fea08fd89c670620&quot;
+    },
+    &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockServices.js&quot;: {
+      &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockServices.js&quot;,
+      &quot;statementMap&quot;: {
+        &quot;0&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 1,
+            &quot;column&quot;: 20
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 51,
+            &quot;column&quot;: 1
+          }
+        }
+      },
+      &quot;fnMap&quot;: {},
+      &quot;branchMap&quot;: {},
+      &quot;s&quot;: {
+        &quot;0&quot;: 2
+      },
+      &quot;f&quot;: {},
+      &quot;b&quot;: {},
+      &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
+      &quot;hash&quot;: &quot;911d0947bbcc8cd2c3012392dea192350df76dec&quot;
+    },
+    &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProducts.js&quot;: {
+      &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProducts.js&quot;,
+      &quot;statementMap&quot;: {
+        &quot;0&quot;: {
+          &quot;start&quot;: {
+            &quot;line&quot;: 1,
+            &quot;column&quot;: 21
+          },
+          &quot;end&quot;: {
+            &quot;line&quot;: 54,
+            &quot;column&quot;: 1
+          }
+        }
+      },
+      &quot;fnMap&quot;: {},
+      &quot;branchMap&quot;: {},
+      &quot;s&quot;: {
+        &quot;0&quot;: 1
+      },
+      &quot;f&quot;: {},
+      &quot;b&quot;: {},
+      &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
+      &quot;hash&quot;: &quot;ded8502f588c14e08a740b34825a5c8a013c03e6&quot;
     },
     &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\config\\index.js&quot;: {
       &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\config\\index.js&quot;,
@@ -662,534 +1602,6 @@
       &quot;b&quot;: {},
       &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
       &quot;hash&quot;: &quot;b81c8871e5843e43d1e0620bb895b98dbeb2439f&quot;
-    },
-    &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProduct.js&quot;: {
-      &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProduct.js&quot;,
-      &quot;statementMap&quot;: {
-        &quot;0&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 4,
-            &quot;column&quot;: 19
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 13,
-            &quot;column&quot;: 1
-          }
-        },
-        &quot;1&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 5,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 12,
-            &quot;column&quot;: 3
-          }
-        },
-        &quot;2&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 6,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 6,
-            &quot;column&quot;: 39
-          }
-        },
-        &quot;3&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 7,
-            &quot;column&quot;: 20
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 7,
-            &quot;column&quot;: 62
-          }
-        },
-        &quot;4&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 8,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 8,
-            &quot;column&quot;: 34
-          }
-        },
-        &quot;5&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 9,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 9,
-            &quot;column&quot;: 19
-          }
-        },
-        &quot;6&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 11,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 11,
-            &quot;column&quot;: 44
-          }
-        }
-      },
-      &quot;fnMap&quot;: {
-        &quot;0&quot;: {
-          &quot;name&quot;: &quot;(anonymous_0)&quot;,
-          &quot;decl&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 4,
-              &quot;column&quot;: 19
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 4,
-              &quot;column&quot;: 20
-            }
-          },
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 4,
-              &quot;column&quot;: 39
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 13,
-              &quot;column&quot;: 1
-            }
-          },
-          &quot;line&quot;: 4
-        }
-      },
-      &quot;branchMap&quot;: {},
-      &quot;s&quot;: {
-        &quot;0&quot;: 2,
-        &quot;1&quot;: 1,
-        &quot;2&quot;: 1,
-        &quot;3&quot;: 1,
-        &quot;4&quot;: 1,
-        &quot;5&quot;: 1,
-        &quot;6&quot;: 0
-      },
-      &quot;f&quot;: {
-        &quot;0&quot;: 1
-      },
-      &quot;b&quot;: {},
-      &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
-      &quot;hash&quot;: &quot;60fff2efac2b24d4ccf19c7ef6cf0e881f8b6e87&quot;
-    },
-    &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\services\\productService.getProducts.js&quot;: {
-      &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\services\\productService.getProducts.js&quot;,
-      &quot;statementMap&quot;: {
-        &quot;0&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 4,
-            &quot;column&quot;: 27
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 23,
-            &quot;column&quot;: 1
-          }
-        },
-        &quot;1&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 5,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 22,
-            &quot;column&quot;: 3
-          }
-        },
-        &quot;2&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 6,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 6,
-            &quot;column&quot;: 44
-          }
-        },
-        &quot;3&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 7,
-            &quot;column&quot;: 17
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 7,
-            &quot;column&quot;: 38
-          }
-        },
-        &quot;4&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 9,
-            &quot;column&quot;: 23
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 9,
-            &quot;column&quot;: 72
-          }
-        },
-        &quot;5&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 11,
-            &quot;column&quot;: 23
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 11,
-            &quot;column&quot;: 55
-          }
-        },
-        &quot;6&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 12,
-            &quot;column&quot;: 21
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 12,
-            &quot;column&quot;: 80
-          }
-        },
-        &quot;7&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 14,
-            &quot;column&quot;: 24
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 18,
-            &quot;column&quot;: 5
-          }
-        },
-        &quot;8&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 19,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 19,
-            &quot;column&quot;: 23
-          }
-        },
-        &quot;9&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 21,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 21,
-            &quot;column&quot;: 44
-          }
-        }
-      },
-      &quot;fnMap&quot;: {
-        &quot;0&quot;: {
-          &quot;name&quot;: &quot;(anonymous_0)&quot;,
-          &quot;decl&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 4,
-              &quot;column&quot;: 27
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 4,
-              &quot;column&quot;: 28
-            }
-          },
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 4,
-              &quot;column&quot;: 62
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 23,
-              &quot;column&quot;: 1
-            }
-          },
-          &quot;line&quot;: 4
-        }
-      },
-      &quot;branchMap&quot;: {},
-      &quot;s&quot;: {
-        &quot;0&quot;: 3,
-        &quot;1&quot;: 1,
-        &quot;2&quot;: 1,
-        &quot;3&quot;: 1,
-        &quot;4&quot;: 1,
-        &quot;5&quot;: 1,
-        &quot;6&quot;: 1,
-        &quot;7&quot;: 1,
-        &quot;8&quot;: 1,
-        &quot;9&quot;: 0
-      },
-      &quot;f&quot;: {
-        &quot;0&quot;: 1
-      },
-      &quot;b&quot;: {},
-      &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
-      &quot;hash&quot;: &quot;83f0441d897cfb3b3c2b5fcacb4892aa26e642da&quot;
-    },
-    &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProducts.js&quot;: {
-      &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProducts.js&quot;,
-      &quot;statementMap&quot;: {
-        &quot;0&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 4,
-            &quot;column&quot;: 20
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 32,
-            &quot;column&quot;: 1
-          }
-        },
-        &quot;1&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 5,
-            &quot;column&quot;: 2
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 31,
-            &quot;column&quot;: 3
-          }
-        },
-        &quot;2&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 6,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 6,
-            &quot;column&quot;: 46
-          }
-        },
-        &quot;3&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 7,
-            &quot;column&quot;: 20
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 14,
-            &quot;column&quot;: 10
-          }
-        },
-        &quot;4&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 15,
-            &quot;column&quot;: 17
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 15,
-            &quot;column&quot;: 46
-          }
-        },
-        &quot;5&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 16,
-            &quot;column&quot;: 21
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 16,
-            &quot;column&quot;: 51
-          }
-        },
-        &quot;6&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 17,
-            &quot;column&quot;: 25
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 19,
-            &quot;column&quot;: 6
-          }
-        },
-        &quot;7&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 21,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 28,
-            &quot;column&quot;: 7
-          }
-        },
-        &quot;8&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 30,
-            &quot;column&quot;: 4
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 30,
-            &quot;column&quot;: 44
-          }
-        }
-      },
-      &quot;fnMap&quot;: {
-        &quot;0&quot;: {
-          &quot;name&quot;: &quot;(anonymous_0)&quot;,
-          &quot;decl&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 4,
-              &quot;column&quot;: 20
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 4,
-              &quot;column&quot;: 21
-            }
-          },
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 4,
-              &quot;column&quot;: 40
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 32,
-              &quot;column&quot;: 1
-            }
-          },
-          &quot;line&quot;: 4
-        }
-      },
-      &quot;branchMap&quot;: {
-        &quot;0&quot;: {
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 7,
-              &quot;column&quot;: 20
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 14,
-              &quot;column&quot;: 10
-            }
-          },
-          &quot;type&quot;: &quot;cond-expr&quot;,
-          &quot;locations&quot;: [
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 8,
-                &quot;column&quot;: 8
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 13,
-                &quot;column&quot;: 9
-              }
-            },
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 14,
-                &quot;column&quot;: 8
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 14,
-                &quot;column&quot;: 10
-              }
-            }
-          ],
-          &quot;line&quot;: 7
-        },
-        &quot;1&quot;: {
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 15,
-              &quot;column&quot;: 26
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 15,
-              &quot;column&quot;: 45
-            }
-          },
-          &quot;type&quot;: &quot;binary-expr&quot;,
-          &quot;locations&quot;: [
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 15,
-                &quot;column&quot;: 26
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 15,
-                &quot;column&quot;: 40
-              }
-            },
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 15,
-                &quot;column&quot;: 44
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 15,
-                &quot;column&quot;: 45
-              }
-            }
-          ],
-          &quot;line&quot;: 15
-        },
-        &quot;2&quot;: {
-          &quot;loc&quot;: {
-            &quot;start&quot;: {
-              &quot;line&quot;: 16,
-              &quot;column&quot;: 30
-            },
-            &quot;end&quot;: {
-              &quot;line&quot;: 16,
-              &quot;column&quot;: 50
-            }
-          },
-          &quot;type&quot;: &quot;binary-expr&quot;,
-          &quot;locations&quot;: [
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 16,
-                &quot;column&quot;: 30
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 16,
-                &quot;column&quot;: 45
-              }
-            },
-            {
-              &quot;start&quot;: {
-                &quot;line&quot;: 16,
-                &quot;column&quot;: 49
-              },
-              &quot;end&quot;: {
-                &quot;line&quot;: 16,
-                &quot;column&quot;: 50
-              }
-            }
-          ],
-          &quot;line&quot;: 16
-        }
-      },
-      &quot;s&quot;: {
-        &quot;0&quot;: 2,
-        &quot;1&quot;: 1,
-        &quot;2&quot;: 1,
-        &quot;3&quot;: 1,
-        &quot;4&quot;: 1,
-        &quot;5&quot;: 1,
-        &quot;6&quot;: 1,
-        &quot;7&quot;: 1,
-        &quot;8&quot;: 0
-      },
-      &quot;f&quot;: {
-        &quot;0&quot;: 1
-      },
-      &quot;b&quot;: {
-        &quot;0&quot;: [
-          1,
-          0
-        ],
-        &quot;1&quot;: [
-          1,
-          0
-        ],
-        &quot;2&quot;: [
-          1,
-          0
-        ]
-      },
-      &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
-      &quot;hash&quot;: &quot;49b1eb0809d7a3fb2fb3bb6b35a98122c3732673&quot;
     },
     &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\validations.js&quot;: {
       &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\validations.js&quot;,
@@ -1355,78 +1767,6 @@
       &quot;b&quot;: {},
       &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
       &quot;hash&quot;: &quot;f6212d2c0e53c5c933e64c1cefa3defec8aec002&quot;
-    },
-    &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockServices.js&quot;: {
-      &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockServices.js&quot;,
-      &quot;statementMap&quot;: {
-        &quot;0&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 1,
-            &quot;column&quot;: 20
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 51,
-            &quot;column&quot;: 1
-          }
-        }
-      },
-      &quot;fnMap&quot;: {},
-      &quot;branchMap&quot;: {},
-      &quot;s&quot;: {
-        &quot;0&quot;: 2
-      },
-      &quot;f&quot;: {},
-      &quot;b&quot;: {},
-      &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
-      &quot;hash&quot;: &quot;911d0947bbcc8cd2c3012392dea192350df76dec&quot;
-    },
-    &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProduct.js&quot;: {
-      &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProduct.js&quot;,
-      &quot;statementMap&quot;: {
-        &quot;0&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 1,
-            &quot;column&quot;: 20
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 15,
-            &quot;column&quot;: 2
-          }
-        }
-      },
-      &quot;fnMap&quot;: {},
-      &quot;branchMap&quot;: {},
-      &quot;s&quot;: {
-        &quot;0&quot;: 1
-      },
-      &quot;f&quot;: {},
-      &quot;b&quot;: {},
-      &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
-      &quot;hash&quot;: &quot;396b8dae0a39523fbb0254ea3278d10738be9c26&quot;
-    },
-    &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProducts.js&quot;: {
-      &quot;path&quot;: &quot;C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProducts.js&quot;,
-      &quot;statementMap&quot;: {
-        &quot;0&quot;: {
-          &quot;start&quot;: {
-            &quot;line&quot;: 1,
-            &quot;column&quot;: 21
-          },
-          &quot;end&quot;: {
-            &quot;line&quot;: 54,
-            &quot;column&quot;: 1
-          }
-        }
-      },
-      &quot;fnMap&quot;: {},
-      &quot;branchMap&quot;: {},
-      &quot;s&quot;: {
-        &quot;0&quot;: 1
-      },
-      &quot;f&quot;: {},
-      &quot;b&quot;: {},
-      &quot;_coverageSchema&quot;: &quot;1a1c01bbd47fc00a2c39e90264f33305004495a9&quot;,
-      &quot;hash&quot;: &quot;ded8502f588c14e08a740b34825a5c8a013c03e6&quot;
     }
   }
 }</div>
