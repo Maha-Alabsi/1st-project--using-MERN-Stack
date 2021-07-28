@@ -1,7 +1,7 @@
 # About:
 ***
-This project includes a simple form where you can use to search for a certain product.
-
+This project is to show a list of products on screen retrieved from database, with search and pagination 
+features.
 # Summary:
 ***
 subjects I learned while developing this project
