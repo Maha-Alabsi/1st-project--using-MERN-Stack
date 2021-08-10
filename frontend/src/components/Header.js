@@ -37,7 +37,7 @@ const Header = ({ setTheme }) => {
           </Link>
           <Box display='flex'>
             <Switcher setTheme={setTheme} />
-            <Link href='#'>
+            <Link href='/cart'>
               <IconButton>
                 <ShoppingCartIcon
                   className={`${commStyles.hdIcon} ${classes.materialLink}`}

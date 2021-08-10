@@ -10,12 +10,13 @@ const getProductsService = async (page, pageSize, keyword) => {
     // How many pages our pagination to have
     const totalpages = Math.ceil(totalitems / pageSize);
     const products = await ProductModel.find(keyword).skip(skip).limit(pageSize);
-    console.log(products)
+
     const returnedobj = {
       totalpages: totalpages,
       products: products,
       totalitems: totalitems,
     };
+    
     return returnedobj;
   } catch (error) {
     logger.error(`Error: ${error.message}`);

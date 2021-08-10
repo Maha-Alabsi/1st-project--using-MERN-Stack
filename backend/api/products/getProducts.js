@@ -4,9 +4,6 @@ import getProductsService from '../../services/productService.getProducts.js';
 const getProducts = async (req, res) => {
   try {
     console.log('start fetching products...');
-    if(!req.query.keyword||!req.query.page||!req.query.pageSize){
-      res.status(400).json({ message: 'keyword or page or pageSize are not provided' } );
-    }
     const keyword = req.query.keyword
       ? {
           name: {

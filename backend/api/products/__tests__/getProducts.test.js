@@ -1,9 +1,8 @@
 import getProducts from '../getProducts.js';
 import getProductsService from '../../../services/productService.getProducts.js';
-import mockService from '../../../fecther/mockServices.js';
-import mockProducts from '../../../fecther/mockProducts.js';
-// import serviceError from '../../../fecther/serviceError.js'
-// import errorProducts from '../../../fecther/erorrProducts.js'
+import mockService from '../../../fectures/mockServices.js';
+import mockProducts from '../../../fectures/mockProducts.js';
+
 jest.mock('../../../services/productService.getProducts.js');
 
 const funParams = {
@@ -43,31 +42,20 @@ describe('getProducts Controller', () => {
     expect(res.status().json).toBeCalledWith(mockProducts);
   });
 
-  test('Should return message error if getProductsService errors', async () => {
+  test('Should return message error if getProductsService errors happened', async () => {
     const req = funParams.mockReq();
     req.query.keyword = 'sofa';
     req.query.page = 1;
     req.query.limit = 3;
     getProductsService.mockImplementation(() => {
       Promise.reject(
-        new Error('there is a problem in finding data from database')
+        new Error('There is a problem in finding data from database')
       );
     });
     await getProducts(req, res);
     expect(res.status).toBeCalledWith(404);
     expect(res.status().json).toBeCalledWith({
       message: 'There is a problem in finding data from the database',
-    });
-  });
-
-  test('Should return message error if keyword&page&limit errors', async () => {
-    const req = funParams.mockReq();
-    // req.query.keyword = 'sofa';
-    // req.query.page = 1;
-    // req.query.limit = 3;
-    await getProducts(req, res);
-    expect(res.status().json).toBeCalledWith({
-      message: 'keyword or page or pageSize are not provided',
     });
   });
 });

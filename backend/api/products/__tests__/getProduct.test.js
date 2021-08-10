@@ -1,6 +1,6 @@
 import getProduct from '../getProduct.js';
 import ProductModel from '../../../models/productModel.js';
-import mockProduct from '../../../fecther/mockProduct.js';
+import mockProduct from '../../../fectures/mockProduct.js';
 jest.mock('../../../models/productModel.js');
 
 const funParams = {
@@ -22,6 +22,7 @@ const funParams = {
 
 describe('getProduct Controller', () => {
   let res;
+
   beforeEach(() => {
     res = funParams.mockRes();
   });
@@ -32,46 +33,34 @@ describe('getProduct Controller', () => {
   test('Should return 200 & return correct value', async () => {
     const req = funParams.mockReq();
     req.params.id = '6076ec2ebc2d7b4d505449b5';
-    jest
-      .spyOn(ProductModel, 'findById')
-      .mockImplementationOnce(() => Promise.resolve(mockProduct));
+    // ProductModel mocking 
+    jest.spyOn(ProductModel, 'findById').mockResolvedValue(mockProduct);
+      // .mockImplementationOnce(() => Promise.resolve(mockProduct));
     await getProduct(req, res);
     expect(res.status).toHaveBeenCalledWith(200);
     expect(res.status().json).toBeCalledWith(mockProduct);
   });
 
-  test('Should return message error if ProductModel.findById errors', async () => {
+  
+  test('Should return an error message if ProductModel.findById errors happened', async () => {
     const req = funParams.mockReq();
     req.params.id = '6076ec2ebc2d7b4d505449b5';
     jest.spyOn(ProductModel, 'findById').mockImplementation(() => {
       Promise.reject(
-        new Error('there is a problem in finding data from database')
-      );
-    });
+        new Error('There is a problem in finding data from the database')
+      );});
     await getProduct(req, res);
-    expect(res.status).toBeCalledWith(404);
+    expect(res.status).toHaveBeenCalledWith(404);
     expect(res.status().json).toBeCalledWith({
-      message: 'there is a problem in finding data from database',
-    });
+      message: 'There is a problem in finding data from the database',
+    })
   });
 
   test('Should return 404 if the id = null', async () => {
     const req = funParams.mockReq();
     req.params.id = null;
-    jest
-      .spyOn(ProductModel, 'findById')
-      .mockImplementation(() => Promise.resolve(mockProduct));
     await getProduct(req, res);
     expect(res.status).toHaveBeenCalledWith(404);
     expect(res.json).toHaveBeenCalledWith({ message: 'Not Found' });
   });
-
-  // test('Should return 404 if the id is not provided', async () => {
-  //   const req = funParams.mockReq();
-  //   // req.params.id = null;
-  //   // jest.spyOn(ProductModel, 'findById').mockImplementation(() =>  Promise.resolve(mockProduct));
-  //   await getProduct(req, res);
-  //   expect(res.status).toHaveBeenCalledWith(400);
-  //   expect(res.json).toHaveBeenCalledWith({ message: `id ${req.params.id} is not provided` });
-  // });
 });

@@ -1,7 +1,8 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import { Link } from 'react-router-dom';
 import useStyles from '../../styles/card';
 import comStyles from '../../styles/index';
+import CartScreen from '../../screens/CartScreen'
 // Material UI Components
 import {
   Card,
@@ -17,9 +18,16 @@ import ZoomInIcon from '@material-ui/icons/ZoomIn';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 
 const ProductCard = ({ product }) => {
+  const [cartItems, setCartItems] = useState([]);
+
   const classes = useStyles();
   const commonClasses = comStyles();
   const bgColor = product.status === 'New' ? 'secondary.main' : 'tertiary.main';
+
+  const addToCartHandler = ( )=> {
+    <CartScreen cartItems={cartItems}></CartScreen>
+    setCartItems([])
+  };
   return (
     <Card className={classes.root}>
       <Link to={`/product/${product._id}`}>
@@ -55,9 +63,14 @@ const ProductCard = ({ product }) => {
           <IconButton label='view item'>
             <ZoomInIcon />
           </IconButton>
-          <IconButton label='Add to cart'>
+          <Link
+            to={`/cart/${product._id}`}
+            className={commonClasses.reactLink}
+          >
+          <IconButton label='Add to cart' onClick={addToCartHandler}>
             <AddShoppingCartIcon />
           </IconButton>
+          </Link>
         </div>
       </div>
     </Card>

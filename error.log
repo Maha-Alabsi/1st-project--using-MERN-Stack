@@ -2508,3 +2508,17 @@
 {"message":"Error: ProductModel.findById error","level":"error","timestamp":"2021-06-20T13:24:51.567Z"}
 {"message":"Error: Whoops!","level":"error","timestamp":"2021-06-20T15:36:56.947Z"}
 {"message":"Error: There is a problem in finding data from the database","level":"error","timestamp":"2021-06-20T15:37:42.714Z"}
+{"message":"Error: reject is not defined","level":"error","timestamp":"2021-06-21T06:16:54.450Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-06-21T09:49:29.610Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-06-21T09:57:42.133Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-06-21T09:58:18.932Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-06-21T10:00:38.439Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-06-21T10:33:43.883Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-06-21T10:35:16.488Z"}
+{"message":"Error: products is not defined","level":"error","timestamp":"2021-06-21T10:52:02.594Z"}
+{"message":"Error: products is not defined","level":"error","timestamp":"2021-06-21T10:52:15.105Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-06-21T10:57:54.478Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-06-21T10:59:18.429Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-06-21T10:59:36.492Z"}
+{"message":"Error: There is a problem in finding data from the database","level":"error","timestamp":"2021-06-21T12:14:30.140Z"}
+{"message":"Error: There is a problem in finding data from the database","level":"error","timestamp":"2021-06-21T12:16:11.587Z"}

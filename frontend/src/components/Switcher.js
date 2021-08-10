@@ -28,10 +28,6 @@ const Switcher = ({ setTheme }) => {
     setTheme(Themes.Theme3);
   };
 
-  // const handleChange = (event, value) => {
-  //   setTheme (event.currentTarget.value);
-  // };
-
   return (
     <div>
       <IconButton onClick={handleClick}>
