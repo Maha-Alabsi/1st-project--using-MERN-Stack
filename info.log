@@ -12010,3 +12010,213 @@
 {"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T10:16:48.244Z"}
 {"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T10:16:50.021Z"}
 {"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T10:17:38.202Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T11:49:21.868Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T11:49:23.833Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T11:49:56.323Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T11:53:52.471Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T11:53:54.389Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T11:53:57.026Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T11:53:58.793Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T11:54:08.509Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T11:54:42.461Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T11:54:44.274Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T11:55:03.088Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T11:55:05.004Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T11:55:32.321Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T11:55:53.174Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T11:55:55.001Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T11:55:55.689Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T11:56:48.207Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T11:56:49.979Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T11:56:52.157Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T11:57:00.221Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T11:58:37.658Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T11:58:39.513Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T11:59:03.517Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T11:59:05.240Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T11:59:11.957Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T11:59:13.730Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T11:59:20.866Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T11:59:22.615Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T11:59:55.008Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T11:59:56.909Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:00:02.467Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:00:29.095Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:00:30.821Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:01:05.323Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:01:33.640Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:01:35.531Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:01:43.804Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:01:48.574Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:01:50.286Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:02:07.656Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:03:45.395Z"}
+{"message":"\u001b[7m\u001b[32mData Imporeted\u001b[39m\u001b[27m","level":"info","timestamp":"2021-08-11T12:03:45.884Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:04:18.429Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:04:20.165Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:04:46.603Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:07:07.260Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:07:09.243Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:07:16.893Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:07:18.661Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:07:20.899Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:07:28.274Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:07:33.200Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:07:34.956Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:07:56.262Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:07:58.016Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:08:03.924Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-01.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:08:05.691Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:09:09.923Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:09:11.668Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:09:35.348Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:10:16.678Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:10:18.405Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:11:00.606Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:11:02.614Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:11:26.917Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:11:38.517Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:11:40.236Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:12:01.424Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:12:03.352Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:12:30.621Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:14:35.576Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:14:38.421Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:14:40.157Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:15:05.868Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:15:17.593Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:15:19.383Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:16:04.071Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:16:17.014Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:16:18.925Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:16:21.191Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:16:29.103Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:16:31.004Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:16:33.859Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:16:51.644Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:16:53.465Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:16:55.765Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:16:58.068Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:17:03.430Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:17:05.154Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:17:08.594Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:18:10.474Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:18:12.376Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:19:28.905Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:19:30.836Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:19:34.022Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:19:50.235Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:19:52.029Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:19:57.927Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:20:00.113Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:20:03.540Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:20:06.282Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:20:08.019Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:20:11.825Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-01.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:20:13.594Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:20:17.785Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:20:28.338Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:20:30.116Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:20:30.430Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:20:43.559Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:20:45.441Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:21:17.565Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:21:52.616Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:21:54.539Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:22:19.431Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:22:22.917Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:22:24.660Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:22:45.425Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:22:54.238Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:22:57.739Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:22:59.506Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:24:28.573Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:24:30.510Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:24:32.567Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:24:34.305Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:25:02.083Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:25:03.859Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T12:25:04.173Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:25:14.892Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-01.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:25:16.669Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:27:19.443Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:27:22.680Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:27:24.415Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:27:49.211Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:28:13.197Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-01.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:28:15.004Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:29:19.874Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:29:21.594Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:30:05.765Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:30:07.552Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:30:16.851Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:30:18.641Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:31:11.927Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:31:13.873Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:31:35.524Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:31:37.272Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:31:39.591Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:31:41.328Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:31:49.121Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-01.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:31:50.894Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:32:01.095Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:32:02.906Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:32:16.412Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:32:18.377Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:32:31.581Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:32:33.369Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:32:57.001Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:32:58.740Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:34:03.041Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:34:06.166Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:34:07.946Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:34:11.627Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:34:13.382Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:34:18.306Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-01.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:34:20.065Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T12:34:23.823Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T12:34:25.602Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:15:38.799Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:15:44.275Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:15:46.462Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:16:08.273Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:16:10.210Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:16:54.860Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:16:57.008Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:17:11.483Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:17:22.066Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:17:29.029Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:17:34.363Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-01.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:17:36.449Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:19:05.602Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:19:10.915Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:19:13.008Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:19:25.039Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-01.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:19:27.446Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:19:54.329Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:19:56.409Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:21:30.953Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:21:33.006Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:21:54.664Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:21:56.747Z"}
+{"message":"Error: Cannot set headers after they are sent to the client","level":"error","timestamp":"2021-08-11T13:22:32.464Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:22:48.023Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:22:50.236Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:23:00.678Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:23:02.694Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:23:23.454Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:23:25.633Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:25:02.848Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:27:28.705Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:32:54.501Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:39:33.870Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:41:54.550Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:41:56.643Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:43:28.385Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:43:30.468Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:50:30.682Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:50:32.880Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:52:15.312Z"}
+{"message":"\u001b[7m\u001b[32mData Imporeted\u001b[39m\u001b[27m","level":"info","timestamp":"2021-08-11T13:52:16.032Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:52:39.000Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:52:41.143Z"}

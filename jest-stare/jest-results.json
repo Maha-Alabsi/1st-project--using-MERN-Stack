@@ -1,13 +1,13 @@
 {
-  "numFailedTestSuites": 0,
+  "numFailedTestSuites": 1,
   "numFailedTests": 0,
   "numPassedTestSuites": 5,
   "numPassedTests": 13,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
-  "numRuntimeErrorTestSuites": 0,
+  "numRuntimeErrorTestSuites": 1,
   "numTodoTests": 0,
-  "numTotalTestSuites": 5,
+  "numTotalTestSuites": 6,
   "numTotalTests": 13,
   "openHandles": [],
   "snapshot": {
@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1624208299023,
+  "startTime": 1628689140106,
   "success": false,
   "testResults": [
     {
@@ -37,10 +37,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1624208313368,
-        "runtime": 13768,
+        "end": 1628689167110,
+        "runtime": 26145,
         "slow": true,
-        "start": 1624208299600
+        "start": 1628689140965
       },
       "skipped": false,
       "snapshot": {
@@ -52,83 +52,13 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\getProduct.test.js",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "getProduct Controller"
-          ],
-          "duration": 94,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "getProduct Controller Should return 200 & return correct value",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "Should return 200 & return correct value"
-        },
-        {
-          "ancestorTitles": [
-            "getProduct Controller"
-          ],
-          "duration": 2,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "getProduct Controller Should return message error if ProductModel.findById errors",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "Should return message error if ProductModel.findById errors"
-        },
-        {
-          "ancestorTitles": [
-            "getProduct Controller"
-          ],
-          "duration": 2,
-          "failureDetails": [],
-          "failureMessages": [],
-          "fullName": "getProduct Controller Should return 404 if the id = null",
-          "invocations": 1,
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "Should return 404 if the id = null"
-        }
-      ],
-      "failureMessage": null
-    },
-    {
-      "leaks": false,
-      "numFailingTests": 0,
-      "numPassingTests": 3,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "openHandles": [],
-      "perfStats": {
-        "end": 1624208314149,
-        "runtime": 591,
-        "slow": false,
-        "start": 1624208313558
-      },
-      "skipped": false,
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "uncheckedKeys": [],
-        "unmatched": 0,
-        "updated": 0
-      },
-      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\getProducts.test.js",
+      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\getProducts.test.js",
       "testResults": [
         {
           "ancestorTitles": [
             "getProducts Controller"
           ],
-          "duration": 4,
+          "duration": 202,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "getProducts Controller Should return 200 & return correct value",
@@ -142,7 +72,7 @@
           "ancestorTitles": [
             "getProducts Controller"
           ],
-          "duration": 6,
+          "duration": 4,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "getProducts Controller Should return message error if getProductsService errors",
@@ -156,7 +86,7 @@
           "ancestorTitles": [
             "getProducts Controller"
           ],
-          "duration": 2,
+          "duration": 9,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "getProducts Controller Should return message error if keyword&page&limit errors",
@@ -177,10 +107,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1624208318971,
-        "runtime": 4686,
-        "slow": false,
-        "start": 1624208314285
+        "end": 1628689175980,
+        "runtime": 8547,
+        "slow": true,
+        "start": 1628689167433
       },
       "skipped": false,
       "snapshot": {
@@ -192,13 +122,13 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\models\\__tests__\\productModel.test.js",
+      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\models\\__tests__\\productModel.test.js",
       "testResults": [
         {
           "ancestorTitles": [
             "Product Model"
           ],
-          "duration": 163,
+          "duration": 230,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Product Model has the mentioned attributes attributes",
@@ -212,7 +142,7 @@
           "ancestorTitles": [
             "Product Model"
           ],
-          "duration": 166,
+          "duration": 161,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Product Model check if the productModel is defined",
@@ -226,7 +156,7 @@
           "ancestorTitles": [
             "Product Model"
           ],
-          "duration": 529,
+          "duration": 610,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Product Model get a product",
@@ -240,7 +170,7 @@
           "ancestorTitles": [
             "Product Model"
           ],
-          "duration": 342,
+          "duration": 347,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Product Model save a product",
@@ -254,7 +184,7 @@
           "ancestorTitles": [
             "Product Model"
           ],
-          "duration": 501,
+          "duration": 562,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Product Model update a product",
@@ -275,10 +205,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1624208320924,
-        "runtime": 1829,
+        "end": 1628689180164,
+        "runtime": 3928,
         "slow": false,
-        "start": 1624208319095
+        "start": 1628689176236
       },
       "skipped": false,
       "snapshot": {
@@ -290,13 +220,13 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\app.test.js",
+      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\app.test.js",
       "testResults": [
         {
           "ancestorTitles": [
             "Test the root path"
           ],
-          "duration": 54,
+          "duration": 104,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Test the root path It should response the GET method",
@@ -317,10 +247,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1624208322143,
-        "runtime": 1066,
+        "end": 1628689182482,
+        "runtime": 2121,
         "slow": false,
-        "start": 1624208321077
+        "start": 1628689180361
       },
       "skipped": false,
       "snapshot": {
@@ -332,13 +262,13 @@
         "unmatched": 0,
         "updated": 0
       },
-      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\productService.getPro.test.js",
+      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\productService.getPro.test.js",
       "testResults": [
         {
           "ancestorTitles": [
             "getProducts Service "
           ],
-          "duration": 6,
+          "duration": 12,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "getProducts Service  Should return correct value",
@@ -350,12 +280,110 @@
         }
       ],
       "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1628689184083,
+        "runtime": 1376,
+        "slow": false,
+        "start": 1628689182707
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\api\\products\\__tests__\\getProduct.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "getProduct Controller"
+          ],
+          "duration": 12,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "getProduct Controller Should return 200 & return correct value",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Should return 200 & return correct value"
+        },
+        {
+          "ancestorTitles": [
+            "getProduct Controller"
+          ],
+          "duration": 11,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "getProduct Controller Should return message error if ProductModel.findById errors",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Should return message error if ProductModel.findById errors"
+        },
+        {
+          "ancestorTitles": [
+            "getProduct Controller"
+          ],
+          "duration": 7,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "getProduct Controller Should return 404 if the id = null",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Should return 404 if the id = null"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    \u001b[1m\u001b[31mJest encountered an unexpected token\u001b[39m\u001b[22m\n\n    Jest failed to parse a file. This happens e.g. when your code or its dependencies use non-standard JavaScript syntax, or when Jest is not configured to support such syntax.\n\n    Out of the box Jest supports Babel, which will be used to transform your files into valid JS based on your Babel configuration.\n\n    By default \"node_modules\" folder is ignored by transformers.\n\n    Here's what you can do:\n     • If you are trying to use ECMAScript Modules, see \u001b[4mhttps://jestjs.io/docs/ecmascript-modules\u001b[24m for how to enable it.\n     • To have some of your \"node_modules\" files transformed, you can specify a custom \u001b[1m\"transformIgnorePatterns\"\u001b[22m in your config.\n     • If you need a custom transformation specify a \u001b[1m\"transform\"\u001b[22m option in your config.\n     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the \u001b[1m\"moduleNameMapper\"\u001b[22m config option.\n\n    You'll find more details and examples of these config options in the docs:\n    \u001b[36mhttps://jestjs.io/docs/configuration\u001b[39m\n    For information about custom transformations, see:\n    \u001b[36mhttps://jestjs.io/docs/code-transformation\u001b[39m\n\n    \u001b[1m\u001b[31mDetails:\u001b[39m\u001b[22m\n\n    C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\frontend\\src\\services\\__tests__\\fetchProducts.js:1\n    ({\"Object.<anonymous>\":function(module,exports,require,__dirname,__filename,jest){import { assert } from 'assert';\n                                                                                      ^^^^^^\n\n    SyntaxError: Cannot use import statement outside a module\n\n      \u001b[2mat Runtime.createScriptFromCode (\u001b[22mnode_modules/jest-runtime/build/index.js\u001b[2m:1479:14)\u001b[22m\n      \u001b[2mat TestScheduler.scheduleTests (\u001b[22mnode_modules/@jest/core/build/TestScheduler.js\u001b[2m:333:13)\u001b[22m\n",
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 0,
+        "runtime": 0,
+        "slow": false,
+        "start": 0
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testExecError": {},
+      "testFilePath": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\frontend\\src\\services\\__tests__\\fetchProducts.js",
+      "testResults": []
     }
   ],
   "wasInterrupted": false,
   "coverageMap": {
-    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\utils\\logger.js": {
-      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\utils\\logger.js",
+    "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\utils\\logger.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\utils\\logger.js",
       "statementMap": {
         "0": {
           "start": {
@@ -387,10 +415,10 @@
       "f": {},
       "b": {},
       "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-      "hash": "a5d30d1d39eb7a4589ef31b81d6475fe3fc6f189"
+      "hash": "85392caea3d6d9cfff06ae98c1996b78ad8092a5"
     },
-    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\models\\productModel.js": {
-      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\models\\productModel.js",
+    "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\models\\productModel.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\models\\productModel.js",
       "statementMap": {
         "0": {
           "start": {
@@ -422,277 +450,10 @@
       "f": {},
       "b": {},
       "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-      "hash": "62058d4b94e866effc478050dc4403f2e8aee177"
+      "hash": "06e2b3b5a838a593327c3fc487882f7f2e770e50"
     },
-    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProduct.js": {
-      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProduct.js",
-      "statementMap": {
-        "0": {
-          "start": {
-            "line": 4,
-            "column": 19
-          },
-          "end": {
-            "line": 19,
-            "column": 1
-          }
-        },
-        "1": {
-          "start": {
-            "line": 5,
-            "column": 2
-          },
-          "end": {
-            "line": 18,
-            "column": 3
-          }
-        },
-        "2": {
-          "start": {
-            "line": 6,
-            "column": 4
-          },
-          "end": {
-            "line": 6,
-            "column": 39
-          }
-        },
-        "3": {
-          "start": {
-            "line": 7,
-            "column": 4
-          },
-          "end": {
-            "line": 9,
-            "column": 5
-          }
-        },
-        "4": {
-          "start": {
-            "line": 8,
-            "column": 6
-          },
-          "end": {
-            "line": 8,
-            "column": 60
-          }
-        },
-        "5": {
-          "start": {
-            "line": 10,
-            "column": 20
-          },
-          "end": {
-            "line": 10,
-            "column": 62
-          }
-        },
-        "6": {
-          "start": {
-            "line": 11,
-            "column": 4
-          },
-          "end": {
-            "line": 13,
-            "column": 5
-          }
-        },
-        "7": {
-          "start": {
-            "line": 12,
-            "column": 6
-          },
-          "end": {
-            "line": 12,
-            "column": 99
-          }
-        },
-        "8": {
-          "start": {
-            "line": 14,
-            "column": 4
-          },
-          "end": {
-            "line": 14,
-            "column": 34
-          }
-        },
-        "9": {
-          "start": {
-            "line": 15,
-            "column": 4
-          },
-          "end": {
-            "line": 15,
-            "column": 19
-          }
-        },
-        "10": {
-          "start": {
-            "line": 17,
-            "column": 4
-          },
-          "end": {
-            "line": 17,
-            "column": 44
-          }
-        }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": {
-            "start": {
-              "line": 4,
-              "column": 19
-            },
-            "end": {
-              "line": 4,
-              "column": 20
-            }
-          },
-          "loc": {
-            "start": {
-              "line": 4,
-              "column": 39
-            },
-            "end": {
-              "line": 19,
-              "column": 1
-            }
-          },
-          "line": 4
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": {
-            "start": {
-              "line": 7,
-              "column": 4
-            },
-            "end": {
-              "line": 9,
-              "column": 5
-            }
-          },
-          "type": "if",
-          "locations": [
-            {
-              "start": {
-                "line": 7,
-                "column": 4
-              },
-              "end": {
-                "line": 9,
-                "column": 5
-              }
-            },
-            {
-              "start": {
-                "line": 7,
-                "column": 4
-              },
-              "end": {
-                "line": 9,
-                "column": 5
-              }
-            }
-          ],
-          "line": 7
-        },
-        "1": {
-          "loc": {
-            "start": {
-              "line": 11,
-              "column": 4
-            },
-            "end": {
-              "line": 13,
-              "column": 5
-            }
-          },
-          "type": "if",
-          "locations": [
-            {
-              "start": {
-                "line": 11,
-                "column": 4
-              },
-              "end": {
-                "line": 13,
-                "column": 5
-              }
-            },
-            {
-              "start": {
-                "line": 11,
-                "column": 4
-              },
-              "end": {
-                "line": 13,
-                "column": 5
-              }
-            }
-          ],
-          "line": 11
-        }
-      },
-      "s": {
-        "0": 2,
-        "1": 3,
-        "2": 3,
-        "3": 3,
-        "4": 1,
-        "5": 2,
-        "6": 2,
-        "7": 1,
-        "8": 1,
-        "9": 1,
-        "10": 0
-      },
-      "f": {
-        "0": 3
-      },
-      "b": {
-        "0": [
-          1,
-          2
-        ],
-        "1": [
-          1,
-          1
-        ]
-      },
-      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-      "hash": "a100ebbbcd9c4d86f517da31a669eba232a28f96"
-    },
-    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProduct.js": {
-      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProduct.js",
-      "statementMap": {
-        "0": {
-          "start": {
-            "line": 1,
-            "column": 20
-          },
-          "end": {
-            "line": 15,
-            "column": 2
-          }
-        }
-      },
-      "fnMap": {},
-      "branchMap": {},
-      "s": {
-        "0": 1
-      },
-      "f": {},
-      "b": {},
-      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-      "hash": "396b8dae0a39523fbb0254ea3278d10738be9c26"
-    },
-    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\services\\productService.getProducts.js": {
-      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\services\\productService.getProducts.js",
+    "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\services\\productService.getProducts.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\services\\productService.getProducts.js",
       "statementMap": {
         "0": {
           "start": {
@@ -766,16 +527,6 @@
         },
         "7": {
           "start": {
-            "line": 13,
-            "column": 4
-          },
-          "end": {
-            "line": 13,
-            "column": 25
-          }
-        },
-        "8": {
-          "start": {
             "line": 14,
             "column": 24
           },
@@ -784,7 +535,7 @@
             "column": 5
           }
         },
-        "9": {
+        "8": {
           "start": {
             "line": 19,
             "column": 4
@@ -794,7 +545,7 @@
             "column": 23
           }
         },
-        "10": {
+        "9": {
           "start": {
             "line": 21,
             "column": 4
@@ -842,18 +593,17 @@
         "6": 1,
         "7": 1,
         "8": 1,
-        "9": 1,
-        "10": 0
+        "9": 0
       },
       "f": {
         "0": 1
       },
       "b": {},
       "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-      "hash": "9a6a9e6cf45b1de2ae9e5b5eaaf3f78bd8b7490d"
+      "hash": "91fb1fe8ab84a64adc63cb72da4d0227ba181c4b"
     },
-    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProducts.js": {
-      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\getProducts.js",
+    "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\api\\products\\getProducts.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\api\\products\\getProducts.js",
       "statementMap": {
         "0": {
           "start": {
@@ -1286,10 +1036,10 @@
         ]
       },
       "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-      "hash": "beba312dcdfb7c7461778093fea08fd89c670620"
+      "hash": "7c6e8989810f2dccb56b01148a82bfc8abf43b1b"
     },
-    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockServices.js": {
-      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockServices.js",
+    "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\fecther\\mockServices.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\fecther\\mockServices.js",
       "statementMap": {
         "0": {
           "start": {
@@ -1310,10 +1060,10 @@
       "f": {},
       "b": {},
       "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-      "hash": "911d0947bbcc8cd2c3012392dea192350df76dec"
+      "hash": "2d4451cdaa5ba554a8da6e5cbf3e3bc9f745cc1a"
     },
-    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProducts.js": {
-      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\mockProducts.js",
+    "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\fecther\\mockProducts.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\fecther\\mockProducts.js",
       "statementMap": {
         "0": {
           "start": {
@@ -1334,10 +1084,10 @@
       "f": {},
       "b": {},
       "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-      "hash": "ded8502f588c14e08a740b34825a5c8a013c03e6"
+      "hash": "2db59ab2428468864b8319afa1f6bf4924ffd643"
     },
-    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\config\\index.js": {
-      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\config\\index.js",
+    "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\config\\index.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\config\\index.js",
       "statementMap": {
         "0": {
           "start": {
@@ -1369,10 +1119,10 @@
       "f": {},
       "b": {},
       "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-      "hash": "99c6b2682630e3b110595334f7bc2362d0be5bc3"
+      "hash": "cef36258147beb75f41fe68a6f0f07e50deab8d6"
     },
-    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\config\\db.js": {
-      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\config\\db.js",
+    "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\config\\db.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\config\\db.js",
       "statementMap": {
         "0": {
           "start": {
@@ -1475,10 +1225,253 @@
       },
       "b": {},
       "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-      "hash": "b81c8871e5843e43d1e0620bb895b98dbeb2439f"
+      "hash": "387865bd9097c77a387db3c7956740cfb2efad24"
     },
-    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\validations.js": {
-      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\api\\products\\validations.js",
+    "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\api\\products\\getProduct.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\api\\products\\getProduct.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 4,
+            "column": 19
+          },
+          "end": {
+            "line": 19,
+            "column": 1
+          }
+        },
+        "1": {
+          "start": {
+            "line": 5,
+            "column": 2
+          },
+          "end": {
+            "line": 18,
+            "column": 3
+          }
+        },
+        "2": {
+          "start": {
+            "line": 6,
+            "column": 4
+          },
+          "end": {
+            "line": 6,
+            "column": 39
+          }
+        },
+        "3": {
+          "start": {
+            "line": 7,
+            "column": 4
+          },
+          "end": {
+            "line": 9,
+            "column": 5
+          }
+        },
+        "4": {
+          "start": {
+            "line": 8,
+            "column": 6
+          },
+          "end": {
+            "line": 8,
+            "column": 60
+          }
+        },
+        "5": {
+          "start": {
+            "line": 10,
+            "column": 20
+          },
+          "end": {
+            "line": 10,
+            "column": 62
+          }
+        },
+        "6": {
+          "start": {
+            "line": 11,
+            "column": 4
+          },
+          "end": {
+            "line": 13,
+            "column": 5
+          }
+        },
+        "7": {
+          "start": {
+            "line": 12,
+            "column": 6
+          },
+          "end": {
+            "line": 12,
+            "column": 99
+          }
+        },
+        "8": {
+          "start": {
+            "line": 14,
+            "column": 4
+          },
+          "end": {
+            "line": 14,
+            "column": 34
+          }
+        },
+        "9": {
+          "start": {
+            "line": 15,
+            "column": 4
+          },
+          "end": {
+            "line": 15,
+            "column": 19
+          }
+        },
+        "10": {
+          "start": {
+            "line": 17,
+            "column": 4
+          },
+          "end": {
+            "line": 17,
+            "column": 44
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": {
+            "start": {
+              "line": 4,
+              "column": 19
+            },
+            "end": {
+              "line": 4,
+              "column": 20
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 39
+            },
+            "end": {
+              "line": 19,
+              "column": 1
+            }
+          },
+          "line": 4
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 4
+            },
+            "end": {
+              "line": 9,
+              "column": 5
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 7,
+                "column": 4
+              },
+              "end": {
+                "line": 9,
+                "column": 5
+              }
+            },
+            {
+              "start": {
+                "line": 7,
+                "column": 4
+              },
+              "end": {
+                "line": 9,
+                "column": 5
+              }
+            }
+          ],
+          "line": 7
+        },
+        "1": {
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 4
+            },
+            "end": {
+              "line": 13,
+              "column": 5
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 11,
+                "column": 4
+              },
+              "end": {
+                "line": 13,
+                "column": 5
+              }
+            },
+            {
+              "start": {
+                "line": 11,
+                "column": 4
+              },
+              "end": {
+                "line": 13,
+                "column": 5
+              }
+            }
+          ],
+          "line": 11
+        }
+      },
+      "s": {
+        "0": 2,
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 1,
+        "5": 2,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 0
+      },
+      "f": {
+        "0": 3
+      },
+      "b": {
+        "0": [
+          1,
+          2
+        ],
+        "1": [
+          1,
+          1
+        ]
+      },
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "ffde8d5e53380387be7084946b414cc5b401ba1f"
+    },
+    "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\api\\products\\validations.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\api\\products\\validations.js",
       "statementMap": {
         "0": {
           "start": {
@@ -1510,10 +1503,10 @@
       "f": {},
       "b": {},
       "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-      "hash": "5c3cda212c84d12abb16d42d203c06b376691e69"
+      "hash": "95ad8dd982588e6344c0de6f14a0eccfc6219042"
     },
-    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\app.js": {
-      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\app.js",
+    "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\app.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\app.js",
       "statementMap": {
         "0": {
           "start": {
@@ -1616,10 +1609,10 @@
       },
       "b": {},
       "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-      "hash": "54815c4fdf1e4c4331a43dd78df7055ca5faa935"
+      "hash": "3d66591ad0935cfc1d57ac523b2f564d59f99bdb"
     },
-    "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\serviceProducts.js": {
-      "path": "C:\\Users\\malabsi\\Desktop\\Assignments\\ProductShop\\backend\\fecther\\serviceProducts.js",
+    "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\fecther\\serviceProducts.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\fecther\\serviceProducts.js",
       "statementMap": {
         "0": {
           "start": {
@@ -1640,7 +1633,31 @@
       "f": {},
       "b": {},
       "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-      "hash": "f6212d2c0e53c5c933e64c1cefa3defec8aec002"
+      "hash": "a7af293574f695fe7ba52f7abaade60f23142a4b"
+    },
+    "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\fecther\\mockProduct.js": {
+      "path": "C:\\Users\\malabsi\\Desktop\\Maha\\Assignments\\ProductShop\\backend\\fecther\\mockProduct.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 20
+          },
+          "end": {
+            "line": 15,
+            "column": 2
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 1
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "a16ac92cd1f075f44cf1f47f96174bb8a108978a"
     }
   }
 }
