@@ -19,6 +19,7 @@ const RenderProducts = ({ keyword }) => {
     const fetchFunction = async function () {
       try {
         const fetchData = await fetchProducts(keyword, page, pageSize);
+        console.log(fetchData.products)
         setProducts(fetchData.products);
         setPages(fetchData.totalpages);
         setSize(fetchData.pageSize);
