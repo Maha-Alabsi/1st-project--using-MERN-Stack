@@ -12220,6 +12220,7 @@
 {"message":"\u001b[7m\u001b[32mData Imporeted\u001b[39m\u001b[27m","level":"info","timestamp":"2021-08-11T13:52:16.032Z"}
 {"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-08-11T13:52:39.000Z"}
 {"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-08-11T13:52:41.143Z"}
+
 {"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-09-20T12:41:50.085Z"}
 {"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-09-20T12:41:52.064Z"}
 {"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-09-20T12:42:42.012Z"}
@@ -12428,3 +12429,21 @@
 {"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-10-10T11:34:57.434Z"}
 {"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2021-10-10T11:35:12.927Z"}
 {"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2021-10-10T11:35:15.295Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-02T09:14:14.236Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ENOTFOUND _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2022-02-02T09:14:14.400Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-02T09:19:16.946Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ENOTFOUND _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2022-02-02T09:19:17.110Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-02T09:21:27.595Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ENOTFOUND _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2022-02-02T09:21:27.802Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-02T09:36:09.825Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ENOTFOUND _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2022-02-02T09:36:10.036Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-02T09:41:03.865Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2022-02-02T09:41:06.351Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-02T09:41:47.242Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ENOTFOUND _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2022-02-02T09:41:47.403Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-02T09:42:29.088Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ENOTFOUND _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2022-02-02T09:42:29.241Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-02T09:42:38.622Z"}
+{"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ENOTFOUND _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2022-02-02T09:42:38.769Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-02T09:43:01.076Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2022-02-02T09:43:03.027Z"}

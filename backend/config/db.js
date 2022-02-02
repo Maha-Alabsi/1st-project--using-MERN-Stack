@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 import colors from 'colors';
 import logger from './../utils/logger.js';
 import config from './index.js';
-const db = config.mongoURI;
+const db = config.mongoURL;
 
 const connectDB = async () => {
   try {
@@ -13,6 +13,7 @@ const connectDB = async () => {
     });
     logger.info(`MongoDB Connected: ${conn.connection.host}`.cyan.underline);
   } catch (error) {
+    console.log('error in connectig');
     logger.error(`Error: ${error.message}`.red.underline.bold);
   }
 };
