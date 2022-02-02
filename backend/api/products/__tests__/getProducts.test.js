@@ -1,7 +1,7 @@
 import getProducts from '../getProducts.js';
 import getProductsService from '../../../services/productService.getProducts.js';
-import mockService from '../../../fecther/mockServices.js';
-import mockProducts from '../../../fecther/mockProducts.js';
+import mockService from '../../../fixedValues/mockServices.js';
+import mockProducts from '../../../fixedValues/mockProducts.js';
 // import serviceError from '../../../fecther/serviceError.js'
 // import errorProducts from '../../../fecther/erorrProducts.js'
 jest.mock('../../../services/productService.getProducts.js');

@@ -1,6 +1,6 @@
 import getProduct from '../getProduct.js';
 import ProductModel from '../../../models/productModel.js';
-import mockProduct from '../../../fecther/mockProduct.js';
+import mockProduct from '../../../fixedValues/mockProduct.js.js';
 jest.mock('../../../models/productModel.js');
 
 const funParams = {

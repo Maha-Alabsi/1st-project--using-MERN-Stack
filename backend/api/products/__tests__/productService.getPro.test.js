@@ -1,8 +1,8 @@
 import sinon from 'sinon';
 import getProductsService from '../../../services/productService.getProducts.js';
 import ProductModel from '../../../models/productModel.js';
-import serviceProducts from '../../../fecther/serviceProducts.js';
-import mockService from '../../../fecther/mockServices.js';
+import serviceProducts from '../../../fixedValues/serviceProducts.js';
+import mockService from '../../../fixedValues/mockServices.js';
 
 jest.mock('../../../models/productModel.js');
 
