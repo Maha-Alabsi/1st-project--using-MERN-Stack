@@ -12447,3 +12447,23 @@
 {"message":"\u001b[1m\u001b[4m\u001b[31mError: querySrv ENOTFOUND _mongodb._tcp.products.ysfwt.mongodb.net\u001b[39m\u001b[24m\u001b[22m","level":"error","timestamp":"2022-02-02T09:42:38.769Z"}
 {"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-02T09:43:01.076Z"}
 {"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2022-02-02T09:43:03.027Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-14T11:16:42.440Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2022-02-14T11:16:44.833Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-14T11:31:42.681Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2022-02-14T11:31:45.274Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-14T12:11:36.902Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2022-02-14T12:11:38.982Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-14T12:12:09.082Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2022-02-14T12:12:10.866Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in development mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-14T12:14:25.164Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-02.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2022-02-14T12:14:27.484Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in production mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-14T12:15:47.868Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2022-02-14T12:15:50.009Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in production mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-14T12:19:56.761Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-01.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2022-02-14T12:19:59.166Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in production mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-14T12:29:45.982Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-01.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2022-02-14T12:29:48.046Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in production mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-14T12:35:46.509Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2022-02-14T12:35:48.700Z"}
+{"message":"\u001b[1m\u001b[33mServer is running in production mode/ port 5000\u001b[39m\u001b[22m","level":"info","timestamp":"2022-02-14T12:37:44.523Z"}
+{"message":"\u001b[4m\u001b[36mMongoDB Connected: products-shard-00-00.ysfwt.mongodb.net\u001b[39m\u001b[24m","level":"info","timestamp":"2022-02-14T12:37:46.574Z"}

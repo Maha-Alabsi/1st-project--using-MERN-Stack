@@ -3,7 +3,6 @@ import app from './app.js';
 import connectDB from './config/db.js';
 import config from './config/index.js';
 import logger from './utils/logger.js';
-
 connectDB();
 
 const PORT = config.port || 5000;
