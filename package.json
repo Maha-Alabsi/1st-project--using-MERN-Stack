@@ -46,7 +46,7 @@
     "express": "^4.17.1",
     "joi": "^17.4.0",
     "joi-objectid": "^3.0.1",
-    "mongodb": "^3.6.6",
+    "mongodb": "^3.7.3",
     "mongoose": "^5.12.2",
     "regenerator-runtime": "^0.13.7",
     "winston": "^3.3.3"
