@@ -37,7 +37,7 @@
     "@shelf/jest-mongodb": "^1.2.4",
     "body-parser": "^1.19.0",
     "bson": "^4.3.0",
-    "celebrate": "^14.0.0",
+    "celebrate": "^15.0.1",
     "colors": "^1.4.0",
     "concurrently": "^7.0.0",
     "config": "^3.3.6",
